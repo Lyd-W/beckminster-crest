@@ -53,37 +53,69 @@ The Beckminster Crest website provides key details about the prestigious, privat
 
 ## User Goals
 
-
+* User friendly navigation.
+* Inform and engage current families.
+* Attract prospective students and families.
+* Establish a clear brand identity.
+* Clearly display admission and boarding costs.
+* Opportunity to contact the school.
 
 [Back to contents](#contents)
 
 ## User Stories
 
-
+* As a user, I want to find information about the school including the age range of students and who the current headmaster is.
+* As a user, I want to be able to find when the next open day is.
+* As a user, I want to be able to easily find the schools contact information.
+* As a user, I want to be able to find out the fees for admission and boarding.
+* As a user, I want to be able to request as broucher.
+* As a user, I want to be able to find term dates.
+* As a user, I want to be able to find the uniform list.
+* As a user, I want to be able to use the website on a range of devices.
+* As a user, I want to be able to contact the school.
+* As a user, I want easy to find navigation to the website’s different pages.
+* As a user, I want to be able to contact the school regarding any absences.
+* As a user, I want to be able to find the schools social media accounts.
 
 [Back to contents](#contents)
 
 ## Website Goals and Objectives
 
-
+* Provide information to current students and families.
+* Attract prospective students and families to engage with the website.
+* Offer useful and accurate information to encourage users to explore the website.
+* Give users the option to contact the school through a form with options such as, general enquires, school absences, request a brochure, enrichments, visit the school, scolarships and bursaries, career opportunities.
+* Website should be functional on various devices.
 
 [Back to contents](#contents)
 
 ## Target Audience
 
-
+* Current students and their families
+* Potential students and their families
+* Current faculty
+* Potential faculty
+* School inspectors
+* Local public
 
 [Back to contents](#contents)
 
 ## Wireframes
 
-
+(Information regarding wirefames will be added here)
 
 ## Design Choices
 
 ### Typography
 
-
+(Information regarding chosen font with reasons will be added here)
 
 ### Colour Scheme
 
+The website colour scheme has been chosen using the school's branding colours, this helps to keep the connection and branding consistent. 
+
+![Coolors Scheme](docs/beckminster-crest-color-scheme.png)
+
+Running the colour scheme through [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23D7D8D8%0D%0A%231A2C20%0D%0A%237B8175%0D%0A%23CDCDBD%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) provides the best colour combinations to use for the website to ensure it's visually appealing and easy to read as well as which combinations are best to be avoided.
+
+![Contrast Grid](docs/beckminster-crest-contrast-grid.png)
