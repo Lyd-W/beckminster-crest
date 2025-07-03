@@ -29,7 +29,7 @@ The Beckminster Crest website provides key details about the prestigious, privat
         + [Parent Information View](#parent-information-view)
         + [Contact Us View](#contact-us-view)
         + [Footer](#footer)
-    *[Future Enhancements](#future-enhancements)
+    * [Future Enhancements](#future-enhancements)
 - [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Libraries and Framework](#libraries-and-framework)
@@ -38,8 +38,8 @@ The Beckminster Crest website provides key details about the prestigious, privat
     * [Bugs](#bugs)
     * [Responsiveness Tests](#responsiveness-tests)
     * [Code Validation](#code-validation)
-        +[HTML](#html)
-        +[CSS](#css)
+        + [HTML](#html)
+        + [CSS](#css)
     * [User Story Testing](#user-story-testing)
     * [Feature Testing](#feature-testing)
     * [Accessibility Testing](#accessibility-testing)
@@ -119,3 +119,98 @@ The website colour scheme has been chosen using the school's branding colours, t
 Running the colour scheme through [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23D7D8D8%0D%0A%231A2C20%0D%0A%237B8175%0D%0A%23CDCDBD%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) provides the best colour combinations to use for the website to ensure it's visually appealing and easy to read as well as which combinations are best to be avoided.
 
 ![Contrast Grid](docs/beckminster-crest-contrast-grid.png)
+
+|CSS Name               |HEX          |Use
+|-----------------------|-------------|---------------------------|
+|   --platinum          |   #D7D8d8   |                           |
+|   --dark-green        |   #1A2C20   |                           |
+|   --battleship-gray   |   #7B8175   |                           |
+|   --bone              |   #CDCDBD   |                           |
+|   --black             |   #000000   |                           |
+
+### Images
+
+(Information regarding the images used will be added here)
+
+### Responsiveness
+
+(Information regarding the responsiveness of the website will be added here)
+
+# Features
+
+(Information regarding features will be added here)
+
+## Existing Features
+
+### Header
+
+#### Home
+
+#### Admission
+
+#### Parent Information
+
+#### Contact Us
+
+### Landing View
+
+### Home View
+
+### Admissions View
+
+### Parent Information View
+
+### Contact Us View
+
+### Footer 
+
+## Future Enhancements
+
+# Technologies Used
+
+## Languages
+
+## Libraries and Framework
+
+## Tools
+
+# Testing
+
+## Bugs
+
+## Responsiveness Tests
+
+## Code Validation
+
+### HMTL
+
+### CSS
+
+## User Story Testing
+
+## Feature Testing
+
+## Accessibility Testing
+
+## Lighthouse Testing
+
+## Browser Testing
+
+# Deployment
+
+## To Deploy the Project
+
+## To Fork the Project
+
+## To Clone the Project
+
+# Credits
+
+#### Images:
+
+- [ChatGPT](https://chatgpt.com/ "ChatGPT")
+
+#### Visual Content:
+
+- [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23C0C0C0%0D%0A%2373937E%0D%0A%23053501%0D%0A%23000000%0D%0A%23FFFFFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp "Contrast Grid")
+- [Coolors](http://https://coolors.co/ "Coolors")
