@@ -209,8 +209,10 @@ Running the colour scheme through [Contrast Grid](https://contrast-grid.eightsha
 #### Images:
 
 - [ChatGPT](https://chatgpt.com/ "ChatGPT")
+- [Favicon.io](https://favicon.io/favicon-converter/ "Favicon.io")
 
 #### Visual Content:
 
+- [Balsamiq](https://balsamiq.com/education/ "Balsamiq")
 - [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23C0C0C0%0D%0A%2373937E%0D%0A%23053501%0D%0A%23000000%0D%0A%23FFFFFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp "Contrast Grid")
 - [Coolors](http://https://coolors.co/ "Coolors")
