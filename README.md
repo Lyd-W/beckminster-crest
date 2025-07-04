@@ -122,10 +122,10 @@ Running the colour scheme through [Contrast Grid](https://contrast-grid.eightsha
 
 |CSS Name               |HEX          |Use
 |-----------------------|-------------|---------------------------|
-|   --platinum          |   #D7D8d8   |                           |
-|   --dark-green        |   #1A2C20   |                           |
-|   --battleship-gray   |   #7B8175   |                           |
-|   --bone              |   #CDCDBD   |                           |
+|   --platinum          |   #d7d8d8   |                           |
+|   --dark-green        |   #1a2c20   |                           |
+|   --battleship-gray   |   #7b8175   |                           |
+|   --bone              |   #cdcdbd   |                           |
 |   --black             |   #000000   |                           |
 
 ### Images
