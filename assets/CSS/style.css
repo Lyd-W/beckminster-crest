@@ -9,19 +9,31 @@
     --secondary-font: "Playfair Display", cursive;
     --primary-color: #d7d8d8 /* platinum */;
     --secondary-color: #1a2c20 /* dark green */;
-    --highlight-color:
-    --highlight-color-light:
+    --highlight-color: #7b8175 /*battleship-gray */;
+    --highlight-color-light: #cdcdbd /* bone */;
 }
 
 /* Global styles */
 
 body {
     font-family: var(--primary-font);
+    background-color: #cdcdbd;
+    overflow-x: hidden; /* hide x scrollbar */
 }
 
 h1 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+h2 {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color)
+}
+
+/* header margin to stop overlap with navbar */
+header {
+    margin-top: 65px;
 }
 
 /* Navbar */
@@ -32,4 +44,33 @@ h1 {
 
 #navbar .logo {
     width: 30px;
+}
+
+.navbar-header {
+    font-family: var(--secondary-font);
+    font-size: large;
+    color: var(--primary-color);
+}
+
+/* Heading */
+
+#home-header{
+    background-color: #cdcdbd;
+    background-image: url("../images/index-background.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500px;
+
+}
+
+#header-text {
+    padding-bottom: 7px;
+
+}
+
+
+/* Media queries */
+
+@media screen {
+    
 }
