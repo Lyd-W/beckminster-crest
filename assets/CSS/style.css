@@ -18,7 +18,6 @@
 body {
     font-family: var(--primary-font);
     background-color: #cdcdbd;
-    overflow-x: hidden; /* hide x scrollbar */
 }
 
 h1 {
@@ -56,18 +55,17 @@ header {
 
 #home-header{
     background-color: #cdcdbd;
-    background-image: url("../images/index-background.jpg");
+    background-image: url("../images/index-background.webp");
     background-size: cover;
-    background-position: 50% 70%;
+    background-position: center;
     min-height: 500px;
-
+    min-width: 320px;
 }
 
-#header-text {
-    padding-bottom: 7px;
-
+.dean {
+max-width: 296px;
+max-height: 328px;
 }
-
 
 /* Media queries */
 
