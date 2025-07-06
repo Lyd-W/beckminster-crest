@@ -15,4 +15,20 @@
 
 body {
     font-family: var(--primary-font);
+    color: purple;
+}
+
+h1, 
+h2 {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color)
+}
+
+/* .container,
+.row {
+    border: 2px solid black;
+} */
+
+.col-12 {
+    background-color: var(--primary-color)
 }

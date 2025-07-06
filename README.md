@@ -84,7 +84,7 @@ The Beckminster Crest website provides key details about the prestigious, privat
 * Provide information to current students and families.
 * Attract prospective students and families to engage with the website.
 * Offer useful and accurate information to encourage users to explore the website.
-* Give users the option to contact the school through a form with options such as, general enquires, school absences, request a brochure, enrichments, visit the school, scolarships and bursaries, career opportunities.
+* Give users the option to contact the school through a form with options such as, general enquires, school absences, request a brochure, enrichments, visit the school, scholarships and bursaries, career opportunities.
 * Website should be functional on various devices.
 
 [Back to contents](#contents)
@@ -116,7 +116,7 @@ The website colour scheme has been chosen using the school's branding colours, t
 
 ![Coolors Scheme](docs/beckminster-crest-color-scheme.png)
 
-Running the colour scheme through [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23D7D8D8%0D%0A%231A2C20%0D%0A%237B8175%0D%0A%23CDCDBD%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) provides the best colour combinations to use for the website to ensure it's visually appealing and easy to read as well as which combinations are best to be avoided.
+Running the colour scheme through [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23D7D8D8%0D%0A%231A2C20%0D%0A%237B8175%0D%0A%23CDCDBD%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) provides the best colour combinations to use for the website to ensure its visually appealing and easy to read as well as which combinations are best to be avoided.
 
 ![Contrast Grid](docs/beckminster-crest-contrast-grid.png)
 
