@@ -36,15 +36,17 @@ h2 {
     width: 36px;
 }
 
+/* Header */
+
+#header {
+    text-align: center;
+}
+
+#background {
+    max-height: 90vh;
+}
+
+/* Remove Bootstrap gutter to remove horizontal scoll */
 .row {
     --bs-gutter-x: 0;
 }
-
-/*.container,
-.row {
-    scrollbar-gutter: unset;
-}
-/*
-.col-12 {
-    background-color: var(--primary-color)
-} */
