@@ -77,17 +77,19 @@
         <section class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Welcome</h2>
+                    <!--my-3 for top and bottom margin-->
+                    <h2 class="display-5 my-3" id="header">Welcome</h2>
                 </div>
-                <div class="col-12 col-lg-6">
-                    <div class="row">
+                <div class="col-12 col-md-6 text-center">
                         <!--Photo of the Dean-->
-                        <img src="assets/images/dean.webp" class="image" id="dean" alt="The Dean of Beckminster Crest, a professional woman wearing a suit and holding notes.">
+                        <img src="assets/images/dean.webp" class="img-fluid" id="dean" 
+                        alt="The Dean of Beckminster Crest, a professional woman wearing a suit and holding notes.">
                     </div>
-                <div class="col-12 col-lg-6">
+                    <!--text-md-start to make text central on smaller screens-->
+                <div class="col-12 col-md-6 text-center text-md-start">
                     <div class="row">
-                        <!--Welcome from he Dean-->
-                        <p>
+                        <!--Welcome from the Dean-->
+                        <p id="welcome-text">
                             "Welcome to Beckminster Crest, where tradition meets excellence.
                             Since our founding in 1661, we have upheld a proud legacy of
                             academic distinction, character development, and leadership. Our
@@ -108,7 +110,7 @@
 
     <!--Footer-->
     <!--mt-auto to push footer to the bottom of the page-->
-    <footer class="mt-auto">
+    <footer id="footer" class="mt-auto">
         <div class="row">
             <div class="col-sm-6 mb-3 mb-sm-0">
               <div class="card">

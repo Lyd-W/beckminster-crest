@@ -17,19 +17,19 @@
 
 body {
     font-family: var(--primary-font);
-    color: purple;
+    color: var(--secondary-color);
 }
 
 h1, 
 h2 {
     font-family: var(--secondary-font);
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 /* Navbar */
 
 #navbar {
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
 }
 
 #navbar .logo {
@@ -40,13 +40,28 @@ h2 {
 
 #header {
     text-align: center;
+    color: var(--secondary-color);
 }
 
 #background {
     max-height: 90vh;
 }
 
+#dean {
+    max-height: 336px;
+}
+
+#welcome-text{
+    display: flex;
+}
+
+
+
 /* Remove Bootstrap gutter to remove horizontal scoll */
 .row {
     --bs-gutter-x: 0;
+}
+
+#footer {
+    padding-top: 20px;
 }
