@@ -13,6 +13,8 @@
     --highlight-color-light: #cdcdbd; /* bone */
 }
 
+/* Global styles */
+
 body {
     font-family: var(--primary-font);
     color: purple;
@@ -22,6 +24,16 @@ h1,
 h2 {
     font-family: var(--secondary-font);
     color: var(--secondary-color)
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--secondary-color)
+}
+
+#navbar .logo {
+    width: 36px;
 }
 
 /* .container,
