@@ -36,11 +36,15 @@ h2 {
     width: 36px;
 }
 
-/* .container,
 .row {
-    border: hidden;
+    --bs-gutter-x: 0;
 }
 
+/*.container,
+.row {
+    scrollbar-gutter: unset;
+}
+/*
 .col-12 {
     background-color: var(--primary-color)
 } */
