@@ -5,10 +5,10 @@
 /* CSS Variables */
 
 :root {
-    --primary-font: "PT Sans", sans-serif;
-    --secondary-font: "Playfair Display", cursive;
-    --primary-color: #cdcdbd; /* bone */
-    --secondary-color: #1a2c20; /* dark green */
+    --primary-font: "Playfair Display", cursive;
+    --secondary-font: "PT Sans", sans-serif;
+    --primary-color: #1a2c20; /* dark green */
+    --secondary-color:#cdcdbd; /* bone */
     --highlight-color: #7b8175; /*battleship-gray */
     --highlight-color-light: #d7d8d8; /* platinum */
 }
@@ -16,21 +16,22 @@
 /* Global styles */
 
 body {
-    font-family: var(--primary-font);
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 h1, 
 h2 {
-    font-family: var(--secondary-font);
-    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    color: var(--primary-color);
 }
 
 /* Navbar */
 
 #navbar {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-family: var(--primary-font);
 }
 
 #navbar .logo {
@@ -41,7 +42,7 @@ h2 {
 
 #header {
     text-align: center;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 #background {
@@ -66,8 +67,29 @@ h2 {
 }
 
 /* Footer */
-#footer {
-    padding-top: 20px;
+#contact {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* styling for icons */
+#contact i {
+    color: var(--secondary-color);
+    margin-right: 15px;
+}
+
+#contact .social-links {
+    font-size: 1.9rem;
+    /* For a smooth colour change when hovered over */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Highlight social links when hovered over */
+#contact .social-links i:hover {
+    color: var(--highlight-color);
 }
 
 /* Media queries */
@@ -76,7 +98,7 @@ h2 {
 @media screen and (min-width: 768px) {
     #welcome-text {
         max-width: 336px;
-        padding-top: 10px;
+        padding-top: 5px;
     }
 }
 
@@ -85,6 +107,10 @@ h2 {
     #welcome-text {
         max-width: 505px;
         font-size: large;
+    }
+
+    #contact {
+        font-size: larger;
     }
 }
 
