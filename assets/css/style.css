@@ -151,5 +151,6 @@ h2 {
     #about-text {
         max-width: 705px;
         font-size: 21px;
+        margin-left: auto;
     }
 }
