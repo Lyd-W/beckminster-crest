@@ -38,6 +38,10 @@ h2 {
     width: 36px;
 }
 
+#navbar .nav-text {
+    color: var(--secondary-color) !important;
+}
+
 /* Header */
 
 #header {
@@ -55,6 +59,18 @@ h2 {
 }
 
 #welcome-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+#about {
+    max-height: 450px;
+    margin-bottom: 10px;
+}
+
+#about-text{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,6 +116,11 @@ h2 {
         max-width: 336px;
         padding-top: 5px;
     }
+    #about-text {
+        max-width: 529px;
+        padding-left: 14px;
+        margin-top: 2px;
+    }
 }
 
 /* Large devices (laptops, 992px and up) */
@@ -107,6 +128,12 @@ h2 {
     #welcome-text {
         max-width: 505px;
         font-size: large;
+    }
+    #about-text {
+        max-width: 529px;
+        padding-left: 46px;
+        font-size: large;
+        margin-top: -8px;
     }
 
     #contact {
@@ -117,6 +144,11 @@ h2 {
 /* XL devices (xl screens, 1200px and up) */
 @media screen and (min-width: 1200px) {
     #welcome-text {
+        max-width: 705px;
+        font-size: 21px;
+    }
+
+    #about-text {
         max-width: 705px;
         font-size: 21px;
     }
