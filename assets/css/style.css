@@ -7,16 +7,17 @@
 :root {
     --primary-font: "PT Sans", sans-serif;
     --secondary-font: "Playfair Display", cursive;
-    --primary-color: #d7d8d8; /* platinum */
+    --primary-color: #cdcdbd; /* bone */
     --secondary-color: #1a2c20; /* dark green */
     --highlight-color: #7b8175; /*battleship-gray */
-    --highlight-color-light: #cdcdbd; /* bone */
+    --highlight-color-light: #d7d8d8; /* platinum */
 }
 
 /* Global styles */
 
 body {
     font-family: var(--primary-font);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
@@ -64,4 +65,10 @@ h2 {
 
 #footer {
     padding-top: 20px;
+}
+
+/* Media queries */
+
+@media screen {
+    
 }
