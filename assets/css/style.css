@@ -50,25 +50,48 @@ h2 {
 
 #dean {
     max-height: 336px;
+    margin-bottom: 10px;
 }
 
 #welcome-text{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
-
-
 
 /* Remove Bootstrap gutter to remove horizontal scoll */
 .row {
     --bs-gutter-x: 0;
 }
 
+/* Footer */
 #footer {
     padding-top: 20px;
 }
 
 /* Media queries */
 
-@media screen {
-    
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    #welcome-text {
+        max-width: 336px;
+        padding-top: 10px;
+    }
+}
+
+/* Large devices (laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #welcome-text {
+        max-width: 505px;
+        font-size: large;
+    }
+}
+
+/* XL devices (xl screens, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    #welcome-text {
+        max-width: 705px;
+        font-size: 21px;
+    }
 }
