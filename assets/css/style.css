@@ -121,6 +121,7 @@ h2 {
         padding-right: 14px;
     }
     #event-text {
+        margin-top: -3px;
         padding-left: 35px;
     }
 }
