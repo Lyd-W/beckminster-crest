@@ -59,12 +59,71 @@
 </nav>
 
 <!--Header-->
-<head>
 
-</head>
+<!--col-md-8 to centeralise column on md screens and up for a tidier layout-->
+<header id="contact-header" class="container selection">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 text-center">
+            <h1 class="display-3">Contact</h1>
+            <p>We understand that choosing the right school is one of the most important decisions a family can make. 
+                Whether you have questions about admissions, would like to arrange a personal tour, are interested in 
+                joining our team or simply wish to learn more about life at Beckminster Crest and what we offer, we 
+                warmly encourage you to get in touch with our friendly team. We are here to provide guidance, answer 
+                your questions, and help you explore how you or your child can thrive in our inspiring and nurturing 
+                environment in the heart of Edinburgh.</p>
+        </div>
+    </div>
+
+</header>
 
 <!--Main-->
 <main>
+    <!--Contact form-->
+    <section id="contact-form" class="container-section">
+        <div class="row justify-content-center">
+            <div class="col-12m col-md-8">
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input class="form-control" id="name" name="name" type="text" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-control" id="email" name="email" type="email" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input class="form-control" id="phone" name="phone" type="number" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="event-type" class="form-label">Enquiry</label>
+                            <select id="question-subject" class="form-select" name="enquiry" required>
+                                <option value="" selected>Select</option>
+                                <option value="early-prospectus">Request an early years prospectus</option>
+                                <option value="lower-prospectus">Request a lower school prospectus</option>
+                                <option value="upper-prospectus">Request an upper school prospectus</option>
+                                <option value="sixth-form-prospectus">Request a sixth form prospectus</option>
+                                <option value="tour">Arrange a personal tour</option>
+                                <option value="open day">Open day enquiry</option>
+                                <option value="admission-enquiry">Admission enquiry</option>
+                                <option value="international-enquiry">International admission enquiry</option>
+                                <option value="careers">Information on career opportunities</option>
+                                <option value="absence-request">Request an absence form</option>
+                                <option value="general-enquiry">General enquiry</option>
+                            </select>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
 </main>
 
