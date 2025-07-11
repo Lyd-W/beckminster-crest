@@ -31,12 +31,32 @@ h2 {
 
 .custom-button-outline {
     background-color: white;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 .custom-button-outline:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color)
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.google-map iframe{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+/* Contact form */
+#contact-form {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* Navbar */
@@ -122,6 +142,7 @@ h2 {
 
 /* Media queries */
 
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     #welcome-text {
@@ -156,6 +177,10 @@ h2 {
     #event-text {
         font-size: large;
         padding-left: 37px;
+    }
+
+.google-map {
+    margin-right: 15px;
     }
 }
 
