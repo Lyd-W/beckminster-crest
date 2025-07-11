@@ -27,6 +27,18 @@ h2 {
     color: var(--primary-color);
 }
 
+/* Buttons */
+
+.custom-button-outline {
+    background-color: white;
+    color: var(--primary-color)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+
 /* Navbar */
 
 #navbar {
