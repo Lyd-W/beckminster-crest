@@ -76,6 +76,7 @@ The Beckminster Crest website provides key details about the prestigious, privat
 * As a user, I want easy to find navigation to the website’s different pages.
 * As a user, I want to be able to contact the school regarding any absences.
 * As a user, I want to be able to find the schools social media accounts.
+* As a user, I would like to see the location of the school on a map to help with directions.
 
 [Back to contents](#contents)
 
