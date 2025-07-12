@@ -59,6 +59,10 @@ h2 {
     margin-right: 10px;
 }
 
+#contact-information {
+    position: relative;
+}
+
 /* Navbar */
 
 #navbar {
@@ -182,6 +186,12 @@ h2 {
 .google-map {
     margin-right: 15px;
     }
+
+#contact-information{
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 }
 
 /* XL devices (xl screens, 1200px and up) */
