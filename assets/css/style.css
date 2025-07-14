@@ -116,6 +116,14 @@ h2 {
     margin-right: auto;
 }
 
+#parent-paragraph {
+    max-width: 750px;
+}
+
+#contact-header, {
+    font-size: large;
+}
+
 /* Tables */
 
 #term-table {
@@ -181,6 +189,10 @@ h2 {
     #event-text {
         margin-top: -3px;
         padding-left: 35px;
+    }
+
+    body {
+    font-size: large;
     }
 }
 
