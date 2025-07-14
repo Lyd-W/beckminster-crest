@@ -161,6 +161,12 @@ h2 {
 
 /* Media queries */
 
+/* Small devices (mobiles, upto 576px) */
+@media screen and (max-width: 576px) {
+    #uniform-table {
+        font-size: 11px;
+    }
+ }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
