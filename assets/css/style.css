@@ -125,8 +125,8 @@ a {
     max-width: 750px;
 }
 
-#contact-header, {
-    font-size: large;
+#fees-paragraph {
+    max-width: 750px;
 }
 
 /* Tables */
