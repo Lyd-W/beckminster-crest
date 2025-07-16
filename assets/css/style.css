@@ -121,11 +121,10 @@ a {
     margin-right: auto;
 }
 
-#parent-paragraph {
-    max-width: 750px;
-}
-
-#fees-paragraph {
+#parent-paragraph,
+#fees-paragraph,
+#admissions-paragraph,
+#boarding-paragraph {
     max-width: 750px;
 }
 
@@ -230,6 +229,11 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+#fees-paragraph,
+#admissions-paragraph,
+#boarding-paragraph {
+    max-width: 900px;
 }
 
 /* XL devices (xl screens, 1200px and up) */
