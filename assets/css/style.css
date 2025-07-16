@@ -124,8 +124,15 @@ a {
 #parent-paragraph,
 #fees-paragraph,
 #admissions-paragraph,
-#boarding-paragraph {
+#boarding-paragraph,
+#scholarship-paragraph {
     max-width: 750px;
+}
+
+/* Carousel */
+.carousel {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Tables */
@@ -232,7 +239,8 @@ a {
 
 #fees-paragraph,
 #admissions-paragraph,
-#boarding-paragraph {
+#boarding-paragraph,
+#scholarship-paragraph {
     max-width: 900px;
 }
 
