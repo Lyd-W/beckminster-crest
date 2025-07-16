@@ -121,14 +121,6 @@ a {
     margin-right: auto;
 }
 
-#parent-paragraph,
-#fees-paragraph,
-#admissions-paragraph,
-#boarding-paragraph,
-#scholarship-paragraph {
-    max-width: 750px;
-}
-
 /* Carousel */
 .carousel {
     margin-top: 10px;
@@ -213,6 +205,7 @@ a {
         max-width: 505px;
         font-size: large;
     }
+
     #about-text {
         max-width: 529px;
         padding-left: 46px;
@@ -235,13 +228,24 @@ a {
     font-size: large;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+    }
 
-#fees-paragraph,
-#admissions-paragraph,
-#boarding-paragraph,
-#scholarship-paragraph {
-    max-width: 900px;
+#enrichment-paragraph {
+    padding-left: 20px;
+    padding-top: 5px;
+    }
+
+#fees-table {
+    float: left;
+    width: 50%;
+    }
+
+#additional-fees-table {
+    float: left;
+    width: 44%;
+    margin-left: 50px;
+    }
+
 }
 
 /* XL devices (xl screens, 1200px and up) */
@@ -259,5 +263,10 @@ a {
     #event-text {
         font-size: 21px;
         padding-left: 42px;
+    }
+
+#enrichment-paragraph {
+    padding-left: 30px;
+    padding-top: 5px;
     }
 }
