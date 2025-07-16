@@ -269,4 +269,8 @@ a {
     padding-left: 30px;
     padding-top: 5px;
     }
+
+#parent-paragraph {
+    max-width: 900px;
+}
 }
