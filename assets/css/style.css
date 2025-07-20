@@ -133,6 +133,12 @@ a {
     max-width: 750px;
 }
 
+/* Videos */
+
+#student-testimony-video {
+    max-width: 900px;
+    margin-bottom: 20px;
+}
 
 /* Remove Bootstrap gutter to remove horizontal scoll */
 .row {

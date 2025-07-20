@@ -79,6 +79,7 @@ The Beckminster Crest website provides key details about the prestigious, privat
 * As a user, I would like to see the location of the school on a map to help with directions.
 * As a user, I want to be able to see what the school offers in addition to the standard curriculum supported with photos.
 * As a user, I would like to be able to watch a video to indicate what Beckminster Crest can offer my child.
+* As a user, I would like to hear a students perspective of their school experience.
 
 [Back to contents](#contents)
 
