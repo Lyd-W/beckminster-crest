@@ -9,6 +9,7 @@ The Beckminster Crest website provides key details about the prestigious, privat
 ### [Contents](#contents)
 * [User Goals](#user-goals)
 * [User Stories](#user-stories)
+* [User Feedback](#user-feedback)
 * [Website Goals and Objectives](#website-goals-and-objectives)
 * [Target Audience](#target-audience) 
 * [Wireframes](#wireframes)
@@ -73,8 +74,16 @@ The Beckminster Crest website provides key details about the prestigious, privat
 * As a user, I want to be able to see what the school offers in addition to the standard curriculum, supported with photos.
 * As a user, I would like to be able to watch a video to indicate what Beckminster Crest can offer my child.
 * As a user, I would like to hear a student's perspective of their school experience.
+* As a user, I would prefer the website to be a one-page, scrollable website.
 
 [Back to contents](#contents)
+
+## User Feedback
+
+ After feedback from users, it was evident that a free-flowing, one-page style website would be preferred to allow users to continuously scroll down the website with the next page following on, rather than accessing it through clicking on the page title in the navbar. This style suits a more modern approach, offering a streamlined user experience, where the user can scroll to browse what is included on the website, only stopping to read relevant sections to them. It also improves the user experience as the website would flow more naturally, especially when accessing the website on a mobile phone which, according to [Statista](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/ "Statista") is how more than half of website traffic is now accessed.
+
+ This feedback has resulted in updated wireframes and the additional user story:
+ * As a user, I would prefer the website to be a one-page, scrollable website.
 
 ## Website Goals and Objectives
 
@@ -99,13 +108,21 @@ The Beckminster Crest website provides key details about the prestigious, privat
 
 ## Wireframes
 
-Wireframes were designed using templates from Balsamiq Wireframes which I then sketched the website's layout onto. I started with the mobile version, then tablet and finally the display on a laptop. The layout mostly remained the same with some extra content added, still following the same style of the website. 
+The original wireframes were designed using templates from [Balsamiq](https://balsamiq.com/ "Balsamiq") which I then sketched the website's layout onto. I started with the mobile version, then tablet and finally the display on a laptop.
 
 [Mobile Wireframes](docs/beckminster-crest-mobile-wireframe.pdf "Mobile Wireframes")
 
 [Tablet Wireframes](docs/beckminster-crest-tablet-wireframe.pdf "Tablet Wireframes")
 
 [Desktop Wireframes](docs/beckminster-crest-laptop-wireframe.pdf "Laptop Wireframes")
+
+User feedback showed a one-page, scrollable wesbite would be preferred, I re-designed the wireframes using [Balsamiq](https://balsamiq.com/ "Balsamiq") to suit the new requirements. Like with the original wireframes, I designed the mobile version first, followed by the tablet version and lastly the desktop version. This time the process was much easier as I  had more experience with how the website would look and feel from previous designing.
+
+[Updated Mobile Wireframes](docs/updated-mobile-wireframes.pdf "Updated Mobile Wireframes")
+
+[Updated Tablet Wireframes](docs/updated-tablet-wireframes.pdf "Updated Tablet Wireframes")
+
+[Updated Desktop Wireframes](docs/updated-desktop-wireframes.pdf "Updated Laptop Wireframes")
 
 [Back to contents](#contents)
 
@@ -267,6 +284,8 @@ A website with a clear and easy to use layout that will be responsive on all dev
 | As a user, I would like to hear a       | There is a student testimony included in the| P  |                      |
 | students perspective of their school    | Scholarship section under the Admissions    |    |                      |
 | experience.                             | page.                                       |    |                      |
+| As a user, I would prefer the website to|
+| be a one-page, scrollable website.      | 
 
 [Back to contents](#contents)
 
