@@ -32,6 +32,11 @@ a {
     text-decoration: underline;
 }
 
+html {
+   scroll-padding-top: 68px;
+   scroll-behavior: smooth;
+}
+
 /* Buttons */
 
 .custom-button-outline {
@@ -75,8 +80,7 @@ a {
     font-family: var(--primary-font);
     position: sticky;
     top: 0;
-    /* z-index to push navbar infront of carousel and video */
-    z-index: 10;
+    z-index: 10;  /* to push navbar infront of carousel and video */
 }
 
 #navbar .logo {
