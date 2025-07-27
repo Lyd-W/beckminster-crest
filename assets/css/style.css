@@ -73,6 +73,10 @@ a {
 #navbar {
     background-color: var(--primary-color);
     font-family: var(--primary-font);
+    position: sticky;
+    top: 0;
+    /* z-index to push navbar infront of carousel and video */
+    z-index: 10;
 }
 
 #navbar .logo {
