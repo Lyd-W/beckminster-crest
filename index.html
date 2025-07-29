@@ -26,7 +26,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-<!-- Classes work with mt-auto on footer to ensure it stays at the bottom -->
+<!-- Classes work with mt-auto on footer to ensure it stays at the bottom, 
+     scrollspy imported from Bootstap v5.3 -->
 <body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target="#navbar">
 
     <!-- Navigation -->
@@ -106,8 +107,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-
 
         <!--About section-->
         <section class="container">
@@ -204,6 +203,7 @@
                 </div>
             </div>
         </section>
+    </section>
 
     <!-- Admissions section -->
 <section id="admissions" class="container">
@@ -224,7 +224,6 @@
             </p>
         </div>
     </div>
-</section>
 
     <!-- Caroursel imported from Bootstap v5.3 -->
 <section class="container">
@@ -527,6 +526,7 @@
         <br><strong>— George Harrington-Jones <br>Age: 15 years<br>Student of Beckminster Crest</strong>
     </p>
 </section>
+</section>
 
     <section id="parent-information" class="container">
         <div class="row justify-content-center text-center">
@@ -540,7 +540,6 @@
                     <a href="#contact">contact page.</a></p>
             </div>
         </div>
-    </section>
 
         <!-- Term date section -->
         <section class="container">
@@ -767,6 +766,7 @@
                 </div>
             </div>
         </section>
+    </section>
 
         <!-- Contact Section-->
 
@@ -782,7 +782,6 @@
                 environment in the heart of Edinburgh.</p>
         </div>
     </div>
-</section>
 
     <div id="contact-information" class="mt-auto">
         <div class="container"> 
@@ -866,55 +865,56 @@
             </div>
         </div>
     </section>
+</section>
 </main>
 
-    <!-- Footer -->
-    <!-- mt-auto to push footer to the bottom of the page -->
-    <footer id="contact" class="mt-auto">
-        <div class="container"> 
-            <div class="row justify-content-center">
-                <!-- Contact info -->
-                <div class="col-sm-12 col-md-6">
-                    <!--Address-->
-                    <address>
-                    <i class="fa-solid fa-location-dot"></i>Beckminster Crest
-                    <br>661 Beckminster Rd.
-                    <br>Edinburgh
-                    <br>EH16 6BM
-                </address>
-            </div>
+<!-- Footer -->
+<!-- mt-auto to push footer to the bottom of the page -->
+<footer id="contact-info" class="mt-auto">
+    <div class="container"> 
+        <div class="row justify-content-center">
+            <!-- Contact info -->
             <div class="col-sm-12 col-md-6">
-                <!--Phone and email-->
-                <p><i class="fa-solid fa-phone"></i>01234 016610<br>
-                    <i class="fa-regular fa-paper-plane"></i>enquiries@beckminstercrest.co.uk
-                </p>
-                <!--social media links-->
-                <div class="social-links">
-                    <a href="https://uk.linkedin.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Linkedin page (opens in a new tab)">
-                        <i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.x.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our X page (opens in a new tab)">
-                        <i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)">
-                        <i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (opens in a new tab)">
-                            <i class="fa-brands fa-facebook"></i></a></p>
-                </div>
+                <!-- Address -->
+                <address>
+                <i class="fa-solid fa-location-dot"></i>Beckminster Crest
+                <br>661 Beckminster Rd.
+                <br>Edinburgh
+                <br>EH16 6BM
+            </address>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <!-- Phone and email -->
+            <p><i class="fa-solid fa-phone"></i>01234 016610<br>
+                <i class="fa-regular fa-paper-plane"></i>enquiries@beckminstercrest.co.uk
+            </p>
+            <!-- social media links -->
+            <div class="social-links">
+                <a href="https://uk.linkedin.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Linkedin page (opens in a new tab)">
+                    <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.x.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our X page (opens in a new tab)">
+                    <i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)">
+                        <i class="fa-brands fa-facebook"></i></a></p>
             </div>
         </div>
-      </div>
+    </div>
+  </div>
 </footer>
-    
-    <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
-    crossorigin="anonymous"></script>
 
-    <!--Font Awesome kit-->
-    <script src="https://kit.fontawesome.com/a1ecf707e9.js" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+crossorigin="anonymous"></script>
+
+<!-- Font Awesome kit -->
+<script src="https://kit.fontawesome.com/a1ecf707e9.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
