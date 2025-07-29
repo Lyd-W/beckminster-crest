@@ -154,7 +154,7 @@ html {
 }
 
 /* Footer */
-#contact {
+#contact-info {
     color: var(--secondary-color);
     background-color: var(--primary-color);
     padding-bottom: 1rem;

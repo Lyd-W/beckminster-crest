@@ -26,8 +26,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-<!-- d-flex to arrange flex items into cols and set min height to full height of view point. 
-    Classes work with mt-auto on footer to ensure it stays at the bottom -->
+<!-- Classes work with mt-auto on footer to ensure it stays at the bottom -->
 <body class="d-flex flex-column min-vh-100">
 
     <!-- Navigation -->
@@ -44,16 +43,16 @@
         <!-- ms-auto to move navbar items to the right -->
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="#welcome">Welcome</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#admissions">Admissions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="parent-information.html">Parent Information</a>
+          <a class="nav-link" href="#parent-information">Parent Information</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="#contact-header">Contact</a>
         </li>
       </ul>
     </div>
@@ -63,7 +62,6 @@
     <!-- Header -->
     <header id="header" class="container">
         <div class="row">
-            <!--mt-1 and mb-2 to add a margin above and below-->
             <div class="col-12"><h1 class="display-3 mt-1">Beckminster Crest</h1></div>
             <div class="col-12"><h2 class="display-6 mb-3"><i>Excellence Through Learning</i></h2></div>
             <!--img-fluid to make the image responsive to screen size-->
@@ -75,11 +73,11 @@
     
     <main>
         <!-- Welcome section -->
-        <section class="container">
+        <section class="container" id="welcome">
             <div class="row">
                 <div class="col-12">
                     <!-- my-3 for top and bottom margin -->
-                    <h2 class="display-5 my-3" id="header">Welcome</h2>
+                    <h2 class="display-3 my-3" id="header">Welcome</h2>
                 </div>
                 <div class="col-12 col-md-6 col-lg-5 text-center">
                         <!-- Photo of the Dean -->
@@ -208,7 +206,6 @@
     <!-- Admissions section -->
 <section id="admissions" class="container">
     <div class="row justify-content-center text-center">
-        <!--mt-1 and mb-3 to add a margin above and below-->
         <div class="col-12">
             <h1 class="display-3 mt-1 mb-3">Admissions
             </h1>
@@ -226,6 +223,7 @@
             </p>
         </div>
     </div>
+</section>
 
     <!-- Caroursel imported from Bootstap v5.3 -->
 <section class="container">
@@ -306,7 +304,8 @@
         </div>
     </div>
 </section>
-    <!--Fees section-->
+
+    <!-- Admission Fees section -->
     <section class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-xl-6">
@@ -326,8 +325,7 @@
                 </p>
             </div>
             <div class="col-12 text-center">
-                    <!--Table of fees-->
-                    <!--table-light for a light stone colour, table hover for hover over effect with mouse-->
+                    <!-- Table of fees -->
                 <table class="table border-primary border-success table-success table-hover center" id="fees-table">
                     <thead>
                     <tr>
@@ -405,8 +403,7 @@
                     </tbody>
                 </table>
 
-                    <!--Table of additional fees-->
-                    <!--table-light for a light stone colour, table hover for hover over effect with mouse-->
+                    <!-- Table of additional fees -->
                     <table class="table border-primary border-success table-success table-hover center" id="additional-fees-table">
                         <thead>
                         <tr>
@@ -492,11 +489,11 @@
             </div>
         </div>
     </section>
-    <!--Scholarship section-->
+
+    <!-- Scholarship section -->
     <section class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
-                <!--my-3 to add margin above and below the header-->
                 <h2 class="display-5 my-3" id="scolarships-header">Scholarships</h2>
             </div>
             <p class="col-12 text-center" id="scholarship-paragraph">We proudly recognise and reward exceptional talent through our prestigious scholarship programme, 
@@ -508,8 +505,9 @@
                 their character, ambition, and positive influence within the school community. Highly competitive and 
                 deeply respected, our scholarship programme reflects the school's ongoing commitment to excellence, 
                 aspiration, and leadership.</p>
-    <!--Student testimony section-->
-    <!--ratio ratio-16x9 for responsiveness-->
+
+    <!-- Student testimony section -->
+    <!-- ratio ratio-16x9 for responsiveness -->
     <div class="col-12 ratio ratio-16x9" id="student-testimony-video">
         <video src="assets/images/student-testimony.mp4" alt="13 year old boy mermaid swimming in a swimming pool" 
         class="object-fit-contain" autoplay controls></video>
@@ -527,11 +525,350 @@
         <br>
         <br><strong>— George Harrington-Jones <br>Age: 15 years<br>Student of Beckminster Crest</strong>
     </p>
+</section>
+
+    <section id="parent-information" class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-12">
+                <h1 class="display-3 mt-1 mb-3">Parent Information
+                </h1>
+            </div>
+                <div class="col-12" id="parent-paragraph">
+                <p>We hope the following information is of use to you. If you require further information, please do not 
+                    hesitate to contact the school. All of our contact information can be found on the<br> 
+                    <a href="#contact">contact page.</a></p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Term date section -->
+        <section class="container">
+            <div class="row ">
+                <div class="col-12">
+                    <h2 class="display-5" id="header">Term Dates</h2>
+                </div>
+                <div class="col-12 text-center">
+                        <!-- Table of term dates -->
+                    <table class="table border-primary border-success table-success table-hover center" id="term-table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Term</th>
+                            <th scope="col">Start date</th>
+                            <th scope="col">End date</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Autumn First Half</th>
+                            <td>28th August 2025</td>
+                            <td>10th October 2025</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Autumn Second Half</th>
+                            <td>26th October 2025</td>
+                            <td>11th December 2025</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lent First Half</th>
+                            <td>5th January 2026</td>
+                            <td>13th February 2026</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lent Second Half</th>
+                            <td>22nd February 2026</td>
+                            <td>27th March 2026</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Summer First Half</th>
+                            <td>19th April 2026</td>
+                            <td>22nd May 2026</td>
+                        </tr>
+                            <th scope="row">Summer Second Half</th>
+                            <td>31st May 2026</td>
+                            <td>27th June 2026</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Uniform section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-5" id="header">Uniform List</h2>
+                </div>
+                <div class="col-12 text-center">
+                    <p>All uniform items must be purchased from the school store to ensure consistency.</p>
+
+                        <!-- Table of uniform list -->
+                    <table class="table table-success table-striped-columns table-bordered border-primary border-success table-success center" 
+                    id="uniform-table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Boys August - March</th>
+                            <th scope="col">Boys April - June</th>
+                            <th scope="col">Girls August - March</th>
+                            <th scope="col">Girls April - June</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Blazer</td>
+                            <td>Blazer optional*</td>
+                            <td>Blazer</td>
+                            <td>Blazer optional*</td>
+                        </tr>
+                        <tr>
+                            <td>Jumper</td>
+                            <td>Jumper optional*</td>
+                            <td>Jumper</td>
+                            <td>Jumper optional*</td>
+                        </tr>
+                        <tr>
+                            <td>Long sleeve white shirt</td>
+                            <td>White polo shirt</td>
+                            <td>Long sleeve white shirt</td>
+                            <td>White polo shirt</td>
+                        </tr>
+                        <tr>
+                            <td>Tie</td>
+                            <td>No tie*</td>
+                            <td>Tie</td>
+                            <td>No tie*</td>
+                        </tr>
+                        <tr>
+                            <td>Black trousers</td>
+                            <td>Black shorts</td>
+                            <td>Black trousers</td>
+                            <td>Black trousers or skirt</td>
+                        </tr>
+                        <tr>
+                            <td>Black socks</td>
+                            <td>Black socks</td>
+                            <td>Black socks</td>
+                            <td>Black socks</td>
+                        </tr>
+                        <tr>
+                            <td>Black shoes</td>
+                            <td>Black shoes</td>
+                            <td>Black shoes</td>
+                            <td>Black shoes</td>
+                        </tr>
+                        <tr>
+                            <td>Black rucksack</td>
+                            <td>Black rucksack</td>
+                            <td>Black rucksack</td>
+                            <td>Black rucksack</td>
+                        </tr>
+                        <tr>
+                            <td>Black coat</td>
+                            <td>Black coat*</td>
+                            <td>Black coat</td>
+                            <td>Black coat*</td>
+                        </tr>
+                        <tr>
+                            <td>Wrist watch optional</td>
+                            <td>Wrist watch optional</td>
+                            <td>Wrist watch optional</td>
+                            <td>Wrist watch optional</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td> </td>
+                            <td>Pair of stud earrings optional</td>
+                            <td>Pair of stud earrings optional</td>
+                        </tr>
+                        <th scope="row">Sportswear</th>
+                        <th scope="row">Sportswear</th>
+                        <th scope="row">Sportswear</th>
+                        <th scope="row">Sportswear</th>
+                        <tr>
+                            <td>Active jacket</td>
+                            <td>Active jacket optional*</td>
+                            <td>Active jacket</td>
+                            <td>Active jacket optional*</td>
+                        </tr>
+                        <tr>
+                            <td>Green polo shirt</td>
+                            <td>Green polo shirt</td>
+                            <td>Green polo shirt</td>
+                            <td>Green polo shirt</td>
+                        </tr>
+                        <tr>
+                            <td>Green rugby shirt</td>
+                            <td>Green rugby shirt</td>
+                            <td>Green rugby shirt optional**</td>
+                            <td>Green rugby shirt optional**</td>
+                        </tr>
+                        <tr>
+                            <td>Black tracksuit bottoms</td>
+                            <td>Black shorts</td>
+                            <td>Black tracksuit bottoms</td>
+                            <td>Black shorts</td>
+                        </tr>
+                        <tr>
+                            <td>Green socks</td>
+                            <td>Green socks</td>
+                            <td>Green socks</td>
+                            <td>Green socks</td>
+                        </tr>
+                        <tr>
+                            <td>Black swim shorts</td>
+                            <td>Black swim shorts</td>
+                            <td>Black swim costume</td>
+                            <td>Black swim costume</td>
+                        </tr>
+                        <tr>
+                            <td>Swim goggles optional</td>
+                            <td>Swim goggles optional</td>
+                            <td>Swim goggles optional</td>
+                            <td>Swim goggles optional</td>
+                        </tr>
+                        <tr>
+                            <td>Black swim hat optional</td>
+                            <td>Black swim hat optional</td>
+                            <td>Black swim hat optional</td>
+                            <td>Black swim hat optional</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Swim nose clip optional</td>
+                            <td>Swim nose clip optional</td>
+                            <td>Swim nose clip optional</td>
+                            <td>Swim nose clip optional</td>
+                        </tr>
+                        <tr>
+                            <td>White trainers</td>
+                            <td>White trainers</td>
+                            <td>White trainers</td>
+                            <td>White trainers</td>
+                        </tr>
+                        <tr>
+                            <td>Football boots optional</td>
+                            <td>Football boots optional</td>
+                            <td>Football boots optional**</td>
+                            <td>Football boots optional**</td>
+                        </tr>
+                        <tr>
+                            <td>Black sports bag</td>
+                            <td>Black sports bag</td>
+                            <td>Black sports bag</td>
+                            <td>Black sports bag</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <p>*Although it is optional for students to wear certain uniform through different seasons, they are 
+                        required to have a blazer, jumper, long sleeve white shirt and tie all year round for formal events 
+                        and an active jacket for sporting tournaments and events.
+                    <br>**These uniform items are only required for students who choose to participate in the related sport.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section-->
+
+<section id="contact-header" class="container selection">
+    <div class="row justify-content-center text-center">
+        <div class="col-12 col-md-10 text-center">
+            <h1 class="display-3">Contact</h1>
+            <p>We understand that choosing the right school is one of the most important decisions a family can make. 
+                Whether you have questions about admissions, would like to arrange a personal tour, are interested in 
+                joining our team or simply wish to learn more about life at Beckminster Crest and what we offer, we 
+                warmly encourage you to get in touch with our friendly team. We are here to provide guidance, answer 
+                your questions, and help you explore how you or your child can thrive in our inspiring and nurturing 
+                environment in the heart of Edinburgh.</p>
+        </div>
+    </div>
+</section>
+
+    <div id="contact-information" class="mt-auto">
+        <div class="container"> 
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                <!-- Phone and email -->
+                <p><i class="fa-solid fa-phone"></i>01234 016610<br>
+                <i class="fa-regular fa-paper-plane"></i>enquiries@beckminstercrest.co.uk
+                </p>
+                <!-- Address -->
+                <address>
+                <i class="fa-solid fa-location-dot"></i>Beckminster Crest
+                <br>661 Beckminster Rd.
+                <br>Edinburgh
+                <br>EH16 6BM
+                </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact form-->
+    <section id="contact-form" class="container-section">
+        <div class="row justify-content-center">
+            <div class="col-12m col-md-8">
+                <form action="success.html" method="GET">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input class="form-control" id="name" name="name" type="text" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-control" id="email" name="email" type="email" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input class="form-control" id="phone" name="phone" type="number" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="event-type" class="form-label">Enquiry</label>
+                            <select id="question-subject" class="form-select" name="enquiry" required>
+                                <option value="" selected>Select</option>
+                                <option value="early-prospectus">Request an early years prospectus</option>
+                                <option value="lower-prospectus">Request a lower school prospectus</option>
+                                <option value="upper-prospectus">Request an upper school prospectus</option>
+                                <option value="sixth-form-prospectus">Request a sixth form prospectus</option>
+                                <option value="sixth-form-prospectus">Request information about scholarships</option>
+                                <option value="tour">Arrange a personal tour</option>
+                                <option value="open day">Open day enquiry</option>
+                                <option value="admission-enquiry">Admission enquiry</option>
+                                <option value="international-enquiry">International admission enquiry</option>
+                                <option value="careers">Information on career opportunities</option>
+                                <option value="absence-request">Request an absence form</option>
+                                <option value="general-enquiry">General enquiry</option>
+                            </select>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <!--col-12 text-center to center button-->
+                        <div class="col-12 text-center">
+                    <button type="submit" class="btn custom-button-outline mb-3">Submit</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="contact-form" class="container-section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 text-center my-3">
+                <!--Map to Edinburgh Castle as Beckminster Crest does not exist-->
+                <h2 class="display-5">Our location</h2>
+                <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3139.1879115374977!2d-3.203182046212238!3d55.94850161803852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1752262609588!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="237"></iframe>
+                </p>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 
-    <!--Footer-->
-    <!--mt-auto to push footer to the bottom of the page-->
+    <!-- Footer -->
+    <!-- mt-auto to push footer to the bottom of the page -->
     <footer id="contact" class="mt-auto">
         <div class="container"> 
             <div class="row justify-content-center">
@@ -569,7 +906,6 @@
         </div>
       </div>
 </footer>
-
     
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
