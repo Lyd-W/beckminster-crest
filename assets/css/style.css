@@ -29,9 +29,9 @@ h4 {
 
 h3 {
     font-family: var(--primary-font);
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    border: 5px solid var(--primary-color);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 5px solid var(--highlight-color);
     margin-top: 50px;
     margin-bottom: 25px;
 }
@@ -61,6 +61,32 @@ html {
     background-color: var(--highlight-color);
     color: var(--primary-color)
 }
+
+/* Accordion */ 
+.accordion-button:not(.collapsed) {
+    color :var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--highlight-color);
+    outline: 2px solid var(--primary-color);
+}
+
+.accordion-button {
+    color :var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--highlight-color);
+    outline: 2px solid var(--primary-color);
+}
+
+button::after {
+    position: absolute;
+    z-index: 100;
+    right: 30px;
+    top: 25px;
+  }
+
+  .accordion-body {
+      background-color: #cdcdbd;
+  }
 
 /* Google maps */
 .google-map {
