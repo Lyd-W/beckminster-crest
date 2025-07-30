@@ -22,9 +22,24 @@ body {
 }
 
 h1, 
-h2 {
+h2,
+h4 {
     font-family: var(--primary-font);
     color: var(--primary-color);
+}
+
+h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 5px solid var(--primary-color);
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 a {
