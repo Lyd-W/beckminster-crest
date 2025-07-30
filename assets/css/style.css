@@ -151,13 +151,11 @@ html {
 }
 
 /* Tables */
-
 #term-table {
     max-width: 750px;
 }
 
 /* Videos */
-
 #student-testimony-video {
     max-width: 900px;
     margin-bottom: 20px;
@@ -178,19 +176,19 @@ html {
 }
 
 /* styling for icons */
-#contact i {
+#contact-info i {
     color: var(--secondary-color);
     margin-right: 15px;
 }
 
-#contact .social-links {
+#contact-info .social-links {
     font-size: 1.9rem;
     /* For a smooth colour change when hovered over */
     transition: color 0.3s ease-in-out;
 }
 
 /* Highlight social links when hovered over */
-#contact .social-links i:hover {
+#contact-info .social-links i:hover {
     color: var(--highlight-color);
 }
 
