@@ -62,35 +62,6 @@ html {
     color: var(--primary-color)
 }
 
-/* Accordion */ 
-.accordion-button:not(.collapsed) {
-    color :var(--primary-color);
-    background-color: var(--secondary-color);
-    border: 3px solid var(--highlight-color);
-    outline: 2px solid var(--primary-color);
-    box-shadow: none;
-}
-
-.accordion-button {
-    color :var(--primary-color);
-    background-color: var(--secondary-color);
-    border: 3px solid var(--highlight-color);
-    outline: 2px solid var(--primary-color);
-}
-
-button::after {
-    position: absolute;
-    z-index: 100;
-    right: 30px;
-    top: 25px;
-  }
-
-  .accordion-body {
-    background-color: #cdcdbd;
-    border: 3px solid var(--highlight-color);
-    padding: 0rem;
-  }
-
 /* Google maps */
 .google-map {
     padding-bottom: 50%;
@@ -187,6 +158,37 @@ button::after {
     margin-bottom: 20px;
 }
 
+/* Accordion */ 
+.accordion-button:not(.collapsed) {
+    color :var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--highlight-color);
+    outline: 2px solid var(--primary-color);
+    box-shadow: none;
+    z-index: 0;
+}
+
+.accordion-button {
+    display: block;
+    color :var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--highlight-color);
+    outline: 2px solid var(--primary-color);
+}
+
+button::after {
+    position: absolute;
+    z-index: 100;
+    right: 30px;
+    top: 25px;
+  }
+
+  .accordion-body {
+    background-color: #cdcdbd;
+    border: 3px solid var(--highlight-color);
+    padding: 0rem;
+  }
+
 /* Remove Bootstrap gutter to remove horizontal scoll */
 .row {
     --bs-gutter-x: 0;
@@ -231,6 +233,25 @@ button::after {
         font-size: 10px;
     }
  }
+.accordion-button:not(.collapsed) {
+    color :var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--highlight-color);
+    outline: 2px solid var(--primary-color);
+    box-shadow: none;
+    z-index: 0;
+}
+
+ .accordion-button {
+     padding-left: 15px;
+ }
+ 
+ button::after {
+     position: absolute;
+     top: 16px;
+     right: 13px;
+
+   }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -305,16 +326,13 @@ button::after {
 @media screen and (min-width: 1200px) {
     #welcome-text {
         max-width: 705px;
-        font-size: 21px;
     }
 
     #about-text {
         max-width: 705px;
-        font-size: 21px;
         margin-left: auto;
     }
     #event-text {
-        font-size: 21px;
         padding-left: 42px;
     }
 
