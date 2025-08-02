@@ -192,7 +192,7 @@ button::after {
     margin-bottom: 10px;
   }
 
-/* Remove Bootstrap gutter to remove horizontal scoll / Assisted by Code Institute Student Support */
+/* Remove Bootstrap gutter to remove horizontal scoll / Assisted by Code Institute Tutor Assistance */
 .row {
     --bs-gutter-x: 0;
 }
