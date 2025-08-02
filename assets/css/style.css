@@ -53,6 +53,11 @@ html {
    scroll-behavior: smooth;
 }
 
+p {
+    font-size: calc(15px + 0.390625vw);
+    /* Formula imported from matthewjamestaylor.com */
+}
+
 /* Buttons */
 .custom-button-outline {
     background-color: var(--primary-color);
