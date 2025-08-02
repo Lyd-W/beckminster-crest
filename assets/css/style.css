@@ -83,8 +83,8 @@ html {
     margin-right: 10px;
 }
 
-#contact-information {
-    position: relative;
+.fa-solid {
+    margin-bottom: 0rem;
 }
 
 /* Navbar */
@@ -144,12 +144,18 @@ html {
 /* Carousel */
 .carousel {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* Tables */
 #term-table {
     max-width: 750px;
+}
+
+#fees-table,
+#additional-fees-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Videos */
@@ -224,6 +230,7 @@ button::after {
 #contact-information i {
     color: var(--primary-color);
     margin-right: 7px;
+    
 }
 
 /* Media queries */
@@ -233,26 +240,30 @@ button::after {
     #uniform-table{
         font-size: 10px;
     }
- }
-.accordion-button:not(.collapsed) {
-    color :var(--primary-color);
-    background-color: var(--secondary-color);
-    border: 3px solid var(--highlight-color);
-    outline: 2px solid var(--primary-color);
-    box-shadow: none;
-    z-index: 0;
-}
-
- .accordion-button {
-     padding-left: 15px;
- }
  
- button::after {
-     position: absolute;
-     top: 16px;
-     right: 13px;
+    .accordion-button:not(.collapsed) {
+        color :var(--primary-color);
+        background-color: var(--secondary-color);
+        border: 3px solid var(--highlight-color);
+        outline: 2px solid var(--primary-color);
+        box-shadow: none;
+        z-index: 0;
+    }
 
+    .accordion-button {
+        padding-left: 15px;
+    }
+ 
+    button::after {
+        position: absolute;
+        top: 16px;
+        right: 13px;
    }
+
+    .google-map {
+        margin-bottom: 30px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -271,6 +282,10 @@ button::after {
 
     body {
     font-size: large;
+    }
+
+    .google-map {
+        margin-bottom: 30px;
     }
 }
 
@@ -303,6 +318,7 @@ button::after {
     font-size: large;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 100px;
     }
 
 #enrichment-paragraph {
@@ -320,6 +336,10 @@ button::after {
     width: 44%;
     margin-left: 50px;
     }
+
+#phone-email-address {
+    margin-top: 34px;
+}
 
 }
 
@@ -344,5 +364,9 @@ button::after {
 
 #parent-paragraph {
     max-width: 900px;
+}
+
+#phone-email-address {
+    margin-top: 72px;
 }
 }
