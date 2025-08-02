@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* CSS Variables */
-
 :root {
     --primary-font: "Playfair Display", cursive;
     --secondary-font: "PT Sans", sans-serif;
@@ -13,7 +12,6 @@
 }
 
 /* Global styles */
-
 body {
     font-family: var(--secondary-font);
     background-color: var(--secondary-color);
@@ -48,14 +46,14 @@ a {
     text-decoration: underline;
 }
 
-html {
+html { /* Assisted by W3schools.com */
    scroll-padding-top: 68px;
    scroll-behavior: smooth;
 }
 
-p {
+p { /* Formula imported from matthewjamestaylor.com */
     font-size: calc(15px + 0.390625vw);
-    /* Formula imported from matthewjamestaylor.com */
+    
 }
 
 /* Buttons */
@@ -100,7 +98,8 @@ p {
     font-family: var(--primary-font);
     position: sticky;
     top: 0;
-    z-index: 10;  /* to push navbar infront of carousel and video */
+    /* To push navbar infront of carousel and video / Assisted by stackoverflow.com */
+    z-index: 10;  
 }
 
 #navbar .logo {
@@ -110,7 +109,6 @@ p {
 #navbar .nav-text {
     color: var(--secondary-color) !important;
 }
-
 
 #header {
     text-align: center;
@@ -194,7 +192,7 @@ button::after {
     margin-bottom: 10px;
   }
 
-/* Remove Bootstrap gutter to remove horizontal scoll */
+/* Remove Bootstrap gutter to remove horizontal scoll / Assisted by Code Institute Student Support */
 .row {
     --bs-gutter-x: 0;
 }
@@ -216,7 +214,7 @@ button::after {
 
 #contact-info .social-links {
     font-size: 1.9rem;
-    /* For a smooth colour change when hovered over */
+    /* Transition imported from Boardwalk Games project */
     transition: color 0.3s ease-in-out;
 }
 
@@ -265,8 +263,7 @@ button::after {
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     #event-text {
-        margin-top: -3px;
-        padding-left: 35px;
+        padding-left: 25px;
     }
 
     .google-map {
@@ -292,10 +289,6 @@ button::after {
 
     #about-image{
         margin-top: 0px;
-    }
-
-    #event-text {
-        padding-left: 37px;
     }
 
     .google-map {
@@ -328,22 +321,10 @@ button::after {
     #phone-email-address {
         margin-top: 15px;
 }
-
 }
 
 /* XL devices (xl screens, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    #about-text {
-        margin-left: auto;
-    }
-    #event-text {
-        padding-left: 42px;
-    }
-
-#enrichment-paragraph {
-    padding-left: 30px;
-    padding-top: 5px;
-    }
 
 #parent-paragraph {
     max-width: 900px;
