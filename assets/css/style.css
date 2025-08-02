@@ -190,6 +190,10 @@ button::after {
     padding: 0rem;
   }
 
+  #accordion-uniform {
+    margin-bottom: 10px;
+  }
+
 /* Remove Bootstrap gutter to remove horizontal scoll */
 .row {
     --bs-gutter-x: 0;
