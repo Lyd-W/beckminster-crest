@@ -56,22 +56,6 @@ p { /* Formula imported from matthewjamestaylor.com */
     
 }
 
-/* Images */
-#dean {
-    max-width: 354px;
-    max-height: 393px;
-}
-
-#about-image {
-    max-width: 337px;
-    max-height: 449px;
-}
-
-.carousel-image {
-    max-width: 780px;
-    max-height: 470px;
-}
-
 /* Buttons */
 .custom-button-outline {
     background-color: var(--primary-color);
@@ -138,6 +122,10 @@ p { /* Formula imported from matthewjamestaylor.com */
 #dean {
     max-height: 400px;
     margin-bottom: 10px;
+}
+
+#about-image {
+    max-height: 450px;
 }
 
 .center {
