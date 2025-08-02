@@ -136,10 +136,6 @@ p { /* Formula imported from matthewjamestaylor.com */
     color: var(--primary-color);
 }
 
-#background {
-    max-height: 90vh;
-}
-
 #dean {
     max-height: 400px;
     margin-bottom: 10px;
