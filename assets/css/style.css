@@ -41,6 +41,11 @@ h4 {
     margin-bottom: 25px;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 a {
     color: var(--primary-color);
     text-decoration: underline;
