@@ -25,6 +25,7 @@ h2,
 h4 {
     font-family: var(--primary-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 h3 {
@@ -34,6 +35,7 @@ h3 {
     border: 5px solid var(--highlight-color);
     margin-top: 50px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 h4 {
@@ -115,25 +117,12 @@ html {
 }
 
 #dean {
-    max-height: 336px;
+    max-height: 400px;
     margin-bottom: 10px;
-}
-
-#welcome-text{
-    font-size: 15px;
 }
 
 #about-image {
     max-height: 450px;
-    margin-bottom: 10px;
-}
-
-#about-text{
-    font-size: 15px;
-}
-
-#event-text{
-    font-size: 15px;
 }
 
 .center {
@@ -255,7 +244,6 @@ button::after {
     }
  
     button::after {
-        position: absolute;
         top: 16px;
         right: 13px;
    }
@@ -267,90 +255,76 @@ button::after {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    #welcome-text {
-        max-width: 336px;
-    }
-    #about-text {
-        max-width: 529px;
-        padding-left: 4px;
-        padding-right: 14px;
-    }
     #event-text {
         margin-top: -3px;
         padding-left: 35px;
     }
 
-    body {
-    font-size: large;
-    }
-
     .google-map {
         margin-bottom: 30px;
     }
+
+    #about-image{
+        margin-top: 10px;
+    }
+ 
+    button::after {
+        top: 16px;
+        right: 13px;
+   }
 }
 
 /* Large devices (laptops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #welcome-text {
-        max-width: 505px;
-        font-size: large;
-    }
 
     #about-text {
-        max-width: 529px;
-        padding-left: 46px;
-        font-size: large;
         margin-top: -8px;
     }
-    #contact {
-        font-size: larger;
+
+    #about-image{
+        margin-top: 0px;
     }
+
     #event-text {
-        font-size: large;
         padding-left: 37px;
     }
 
-.google-map {
-    margin-right: 15px;
+    .google-map {
+        margin-right: 15px;
     }
 
-#contact-information{
-    font-size: large;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 100px;
+    #contact-information{
+        font-size: large;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 100px;
     }
 
-#enrichment-paragraph {
-    padding-left: 20px;
-    padding-top: 5px;
+    #enrichment-paragraph {
+        padding-left: 20px;
+        padding-top: 5px;
     }
 
-#fees-table {
-    float: left;
-    width: 50%;
+    #fees-table {
+        float: left;
+        width: 50%;
     }
 
-#additional-fees-table {
-    float: left;
-    width: 44%;
-    margin-left: 50px;
+    #additional-fees-table {
+        float: left;
+        width: 44%;
+        margin-left: 50px;
     }
 
-#phone-email-address {
-    margin-top: 34px;
+    #phone-email-address {
+        margin-top: 15px;
 }
 
 }
 
 /* XL devices (xl screens, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    #welcome-text {
-        max-width: 705px;
-    }
-
     #about-text {
-        max-width: 705px;
         margin-left: auto;
     }
     #event-text {

@@ -322,7 +322,6 @@ Changes can still be made to the website through VS Code, they become live once 
 #### Learning Resources and Guidance
 
 - [Code Institute](https://codeinstitute.net/ "Code Institute")
-- [Matthew James Taylor](https://matthewjamestaylor.com/responsive-font-size "Matthew James Taylor")
 - [Slack](https://slack.com/intl/en-gb/ "Slack")
 - [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")
 - [W3 Schools](https://www.w3schools.com/ "W3 Schools")
@@ -346,5 +345,6 @@ Changes can still be made to the website through VS Code, they become live once 
 - [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23C0C0C0%0D%0A%2373937E%0D%0A%23053501%0D%0A%23000000%0D%0A%23FFFFFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp "Contrast Grid")
 - [Coolors](http://https://coolors.co/ "Coolors")
 - [Font Awesome](https://fontawesome.com/search?q=menu&o=r&ic=free "Font Awesome")
+- [Google Maps](https://maps.google.com/ "Google Maps")
 
 [Back to contents](#contents)
