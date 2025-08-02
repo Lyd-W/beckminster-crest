@@ -41,11 +41,6 @@ h4 {
     margin-bottom: 25px;
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
-}
-
 a {
     color: var(--primary-color);
     text-decoration: underline;
@@ -59,6 +54,27 @@ html { /* Assisted by W3schools.com */
 p { /* Formula imported from matthewjamestaylor.com */
     font-size: calc(15px + 0.390625vw);
     
+}
+
+/* Images */
+#background {
+    max-width: 1296px;
+    max-height: 831px;
+}
+
+#dean {
+    max-width: 354px;
+    max-height: 393px;
+}
+
+#about-image {
+    max-width: 337px;
+    max-height: 449px;
+}
+
+.carousel-image {
+    max-width: 780px;
+    max-height: 470px;
 }
 
 /* Buttons */
@@ -127,10 +143,6 @@ p { /* Formula imported from matthewjamestaylor.com */
 #dean {
     max-height: 400px;
     margin-bottom: 10px;
-}
-
-#about-image {
-    max-height: 450px;
 }
 
 .center {
