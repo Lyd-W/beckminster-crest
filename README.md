@@ -413,20 +413,14 @@ I thoroughly tested the website in Safari and Chrome on a Macbook Pro and Safari
 
 |   Bug Description                         | Resolved |    Resolution Description                               |
 |-------------------------------------------|----------|---------------------------------------------------------|
-| Bootstrap element affecting layout on all | Yes      | Added --bs-gutter-x: 0; to the CSS to remove the gutter.|
-| devices.                                  |          |                                                         |
-| Carousel and video scrolled infront of    | Yes      | Increase the z-index of the navbar to position it in    |
-| navbar.                                   |          | front.                                                  |
-| Navbar links scrolled past the section    | Yes      | Added scroll-padding set to a minimum of the navbar     |
-| headers.                                  |          | height.                                                 |
-| Accordion button showed upside down but   | Yes      | Added -collapsed to the button element in HTML and set  |
-| corrected after two clicks.               |          | aria-expanded to true.                                  |
-| Uniform table expanded outside the        | Yes      | Set the text size on small screens within the media     |
-| accordion body on mobile.                 |          | queries to 10px.                                        |
-| Accordion button arrow became unaligned on| Yes      | Adjusted top and right margins within media queries.    |
-| most screen sizes.                        |          |                                                         |
-| Burger menu would not close automatically | Yes      | Added JavaScript code to HTML.                          |
-| when a link was clicked.                  |          |                                                         |
+| Bootstrap gutter affecting layout on all devices. | Yes | Added --bs-gutter-x: 0; to the CSS to remove the gutter. |
+| Carousel and video scrolled in front of navbar. | Yes | Increase the z-index of the navbar to position it in front. |
+| Navbar links scrolled past the in-page section headers. | Yes | Added scroll-padding set to a minimum of the navbar height. |
+| Accordion button showed upside down, it corrected after two clicks. | Yes | Added -collapsed to the button element in HTML and set aria-expanded to true to display the arrow in the correct orientation. |
+| Uniform table expanded outside the accordion body on mobile. | Yes | Set the text size on small screens within the media queries to 10px. |
+| Accordion button arrow became unaligned on most screen sizes. | Yes | Adjusted top and right margins within media queries. |
+| Burger menu would not close automatically when a link was clicked. | Yes | Added JavaScript code to HTML. |
+
 
 ## Responsiveness Tests
 
