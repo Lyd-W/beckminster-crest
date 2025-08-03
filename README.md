@@ -158,7 +158,7 @@ I then used [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0
 |                       |             | navbar, footer                                 |
 |   --black             |   #000000   | Dark highlight colour                          |
 
-All colours were used except for #d7d8d8, although it was one of the colours to score the highest contrast score on [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23D7D8D8%0D%0A%231A2C20%0D%0A%237B8175%0D%0A%23CDCDBD%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp "Contract Grid | Chosen Colour Scheme"), it did not feel in keeping with the schools elegant, more sophisticated style. If the website was to be expanded in the future, it could be used for extra styling and lighter highlights.
+All colours were used except for #d7d8d8, although it was one of the colours to score the highest contrast score on [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23D7D8D8%0D%0A%231A2C20%0D%0A%237B8175%0D%0A%23CDCDBD%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp "Contract Grid | Chosen Colour Scheme"), it did not feel in keeping with the schools elegant, more sophisticated style at this time, however, if the website was to be expanded in the future, it could be used for extra styling and lighter highlights.
 
 ### Images
 
