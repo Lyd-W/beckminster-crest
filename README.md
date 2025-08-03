@@ -428,7 +428,15 @@ I thoroughly tested the website in Safari and Chrome on a Macbook Pro and Safari
 
 ### HMTL
 
+I have used [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri "W3C HTML Validation Service") to validate the HTML, this returned no errors.
+
+![HTML Validation Results](docs/html-validation.png "HTML Validation Results")
+
 ### CSS
+
+I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation Service") to validate the CSS, this returned no errors.
+
+![CSS Validation Results](docs/css-validation.png "CSS Validation Results")
 
 ## User Story Testing
 
