@@ -205,6 +205,11 @@ button::after {
     --bs-gutter-x: 0;
 }
 
+/* Success page */
+#success {
+    margin-top: 5%;
+}
+
 /* Footer */
 #contact-info {
     color: var(--secondary-color);
