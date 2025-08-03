@@ -282,9 +282,21 @@ The Welcome section features a photo of the Dean of Backminster Crest along with
 
 ### Admissions Section
 
-The Admissions section shows the section header, followed by a paragraph containing information regarding admissions at Beckminster Crest. When viewing on mobile, to keep a consistent layout, the text and photos are stacked on each other with subheadings to guide the user. On tablets the layout mimics that of the mobile view to enhance the readability of tables and increase the visual impact of the carousel and video elements. On larger screens the carousel sits next to the enrichment information and the two tables for fees also sit next to each other, this improves the flow of the website without causing unused spaces.
+The Admissions section shows the section header, followed by a paragraph containing information regarding admissions at Beckminster Crest. When viewing on mobile, to keep a consistent layout, the text and photos are stacked on each other with subheadings to guide the user. On tablets the layout mimics that of the mobile view to enhance the readability of tables and increase the visual impact of the carousel and video elements. On larger screens the carousel sits next to the enrichment information and the two tables for fees also sit next to each other, this improves the flow of the website without causing unused spaces. The carousel holds 8 photos and is set to be manually controlled to browse through the photos, this allows the user to look at their lesiure and does not cause distraction from autoplaying. Due to the nature of the video, it offers a calming effect. The video does not loop and has been muted to prevent sudden noise being played, it also has controls for user convenience.
 
 ![Admissions section](docs/existing-feature-admissions.png "Admissions Section")
+
+<br>
+
+<b>Carousel</b>
+
+![Carousel](docs/existing-feature-carousel.png "Carousel Display")
+
+<br>
+
+<b>Video</b>
+
+![Video](docs/existing-feature-video.png "Video Display")
 
 <br>
 
@@ -295,6 +307,8 @@ The Parent Information vsection conatins a breif paragraph including a link to t
 ![Parent information section](docs/existing-feature-parent-information.png "Parent Information Section")
 
 <br>
+
+<b>Accordion</b>
 
 ![Accordion Display](docs/existing-feature-accordion.png "Accordion Display")
 
@@ -307,6 +321,10 @@ The Contact section holds a paragraph of text regarding contacting the school, b
 ![Contact section](docs/existing-feature-contact.png "Contact Section")
 
 <br>
+
+<b>Contact form</b>
+
+![Contact form](docs/existing-feature-contact-form.png "Contact Form")
 
 ### Success Page
 
