@@ -1,6 +1,6 @@
 # Beckminster Crest
 
-[Beckminster Crest](https://lyd-w.github.io/beckminster-crest/)
+[Beckminster Crest](https://lyd-w.github.io/beckminster-crest/ "Beckminster Crest Homepage")
 
 The Beckminster Crest website provides key details about the prestigious, private school to parents, students, potential families, faculty and its other users. It has been created to deliver a smooth and responsive experience through a user focused design with a tidy layout that provides effortless navigation between pages, effectively working on multiple devices.
 
@@ -30,13 +30,15 @@ The Beckminster Crest website provides key details about the prestigious, privat
     * [Future Enhancements](#future-enhancements)
 - [Technologies Used](#technologies-used)
     * [Languages](#languages)
-    * [Libraries, Frameworks, Tools and Programmes Used](#libraries-frameworks-tools-and-programmes-used)
+    * [Libraries and Frameworks](#libraries-and-frameworks)
+    * [Tools and Programmes](#tools-and-programmes)
 - [Testing](#testing)
     * [Bugs](#bugs)
     * [Responsiveness Tests](#responsiveness-tests)
     * [Code Validation](#code-validation)
         + [HTML](#html)
         + [CSS](#css)
+        + [JavaScript](#javascript)
     * [User Story Testing](#user-story-testing)
     * [Feature Testing](#feature-testing)
     * [Accessibility Testing](#accessibility-testing)
@@ -180,7 +182,7 @@ The website is responsive to different screen sizes with the breakpoints taken f
 
 A website with a clear and easy to use layout that is responsive on all devices that can be recognised as the school's website through the use of the school's logo, colours and font families. The user can easily find the information they require on the clearly identified pages/sections with the ability to use a contact form if they have further enquires. There are also images throughout the site to demonstrate different aspects of the school with a large focus on enrichment activities that are displayed in a carousel. To encourage interaction, there is a video showing footasge of a student participating in mermaid swimming, I chose to display this activity as it is unique and more likely to attract interest whilst highlighting Beckminster Crest encourages and supports all types of enrichment. 
 
-Due to the large amount of information required for the uniform table, I chose to add a [Bootstrap accordion](https://getbootstrap.com/docs/5.3/components/accordion/ "Bootstap - Accordion) feature so the user can open the full table if required, this prevents unnecessary visual clutter and scrolling. To help users locate where the school is, a location shown using [Google Maps](https://www.google.com/maps/place/Edinburgh+Castle/@55.9485977,-3.2024938,17z/data=!3m1!4b1!4m6!3m5!1s0x4887c79a2099c0f7:0x469a1eebe54c0a58!8m2!3d55.9485947!4d-3.1999135!16zL20vMGpwbl8?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D "Google Maps | Edinburgh Castle") has bdeen included. As the school does not exist, the location used is Edinburgh Castle.
+Due to the large amount of information required for the uniform table, I chose to add a [Bootstrap accordion](https://getbootstrap.com/docs/5.3/components/accordion/ "Bootstap - Accordion") feature so the user can open the full table if required, this prevents unnecessary visual clutter and scrolling. To help users locate where the school is, a location shown using [Google Maps](https://www.google.com/maps/place/Edinburgh+Castle/@55.9485977,-3.2024938,17z/data=!3m1!4b1!4m6!3m5!1s0x4887c79a2099c0f7:0x469a1eebe54c0a58!8m2!3d55.9485947!4d-3.1999135!16zL20vMGpwbl8?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D "Google Maps | Edinburgh Castle") has bdeen included. As the school does not exist, the location used is Edinburgh Castle.
 
 ## Existing Features
 
@@ -380,22 +382,26 @@ The footer follows a consistant style across all devices, using the same backgro
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML "HTML")
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS "CSS")
 
-## Libraries, Frameworks, Tools and Programmes Used
+## Libraries and Frameworks
+
+- [Bootstrap v5.3](https://getbootstrap.com/ "Bootstrap v5.3 Homepage")
+- [Favicon](https://favicon.io/ "Favicon Homepage")
+- [Font Awesome](https://fontawesome.com/search?q=menu&o=r&ic=free "Font Awesome Homepage")
+- [Google Fonts](https://fonts.google.com/ "Google Fonts Homepage")
+
+## Tools and Programmes
 
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/index.html "Am I Responsive")
 - [Autoprefixer CSS online](https://autoprefixer.github.io/ "Autoprefixer CSS Online Homepage")
-- [Balsamiq](https://balsamiq.com/ "Balsamiq")
-- [Bootstrap v5.3](https://getbootstrap.com/ "Bootstrap v5.3")
-- [Chat GPT](https://chatgpt.com/ "Chat GPT")
-- [Favicon](https://favicon.io/ "Favicon")
-- [Font Awesome](https://fontawesome.com/search?q=menu&o=r&ic=free "Font Awesome")
-- [GitHub](https://github.com "GitHub")
-- [Google Fonts](https://fonts.google.com/ "Google Fonts")
-- [Responsive Deisgn Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
-- [Videobolt](https://videobolt.net/simple-video-tools/resize "Videobolt")
-- [VS Code](https://code.visualstudio.com/ "VS Code")
-- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation Service")
-- [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input "W3C HTML Validation Service")
+- [Balsamiq](https://balsamiq.com/ "Balsamiq Homepage")
+- [Chat GPT](https://chatgpt.com/ "Chat GPT Homepage")
+- [GitHub](https://github.com "GitHub Homepage")
+- [JSHint](https://jshint.com/ "JSHint Homepage")
+- [Responsive Deisgn Checker](https://responsivedesignchecker.com/ "Responsive Design Checker Homepage")
+- [Videobolt](https://videobolt.net/simple-video-tools/resize "Videobolt Homepage")
+- [VS Code](https://code.visualstudio.com/ "VS Code Homepage")
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation Service Homepage")
+- [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input "W3C HTML Validation Service Homepage")
 
 [Back to contents](#contents)
 
@@ -428,62 +434,43 @@ I thoroughly tested the website in Safari and Chrome on a Macbook Pro and Safari
 
 ### HMTL
 
-I have used [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri "W3C HTML Validation Service") to validate the HTML, this returned no errors.
+I have used [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri "W3C HTML Validation Service") to validate the HTML, no errors were returned.
 
 ![HTML Validation Results](docs/html-validation.png "HTML Validation Results")
 
 ### CSS
 
-I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation Service") to validate the CSS, this returned no errors.
+I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation Service") to validate the CSS, no errors were returned.
 
 ![CSS Validation Results](docs/css-validation.png "CSS Validation Results")
+
+### JavaScript
+
+As I have used JavaScript for some of the functions in the wesbite, I tested the code using [JSHint](https://jshint.com/ "JSHint Homepage"), no errors were returned.
+
+![JSHint Results](docs/jshint.png "JSHint Results")
 
 ## User Story Testing
 
 |User Story                               | Result                                      |Pass| Evidence             |
 |-----------------------------------------|---------------------------------------------|----|----------------------|
-| As a user, I want to find information   | The Home page displays information about    | P  |                      |
-| about the school including the age range| the school including the age range of       |    |                      |
-| of students and who the headmaster is.  | students and who the current headmaster is. | P  |                      |
-| As a user, I want to be able to find    | The Home page has a table showing when the  | P  |                      |
-| when the next open day is.              | next open day is.                           |    |                      |
-| As a user, I want to be able to easily  | The schools contact information is listed in| P  |                      |
-| find the schools contact information.   | the footer and there is a contact form on   |    |                      |
-|                                         | the Contact page.                           |    |                      |
-| As a user, I want to be able to find out| The Admissions page contains a table of fees| P  |                      |
-| the fees for admission and boarding.    | including admission and boarding.           |    |                      | 
-| As a user, I want to be able to request | On the Contact page, users can request a    | P  |                      |
-| a brochure.                             | prospectus.                                 |    |                      |
-| As a user, I want to be able to find    | A table of term dates can be found on the   | P  |                      | 
-| term dates.                             | Parent Information page.                    |    |                      |
-| As a user, I want to be able to find the| A uniform list can be found on the Parent   | P  |                      |
-| uniform list.                           | Information page.                           |    |                      |
-| As a user, I want to be able to use the | The website performs on a range of devices, | P  |                      |
-| website on a range of devices.          | it's responsive across different viewpoints.|    |                      |
-| As a user, I want to be able to contact | The school's contact information is listed  | P  |                      |
-| the school.                             | in the footer and there is a contact form.  |    |                      |
-| As a user, I want easy to find          | The navbar clearly displays the different   | P  |                      |
-| navigation to the website’s different   | pages at the top of the website.            |    |                      |
-| pages.                                  |                                             |    |                      |
-| As a user, I want to be able to contact | The contact form on the Contact Page can be | P  |                      |
-| the school regarding any absences.      | used to request an absence form.            |    |                      |
-| As a user, I want to be able to find the| The school's social media accounts are linked| P  |                      |
-| school's social media accounts.          | in the footer.                              |    |                      |
-| As a user, I would like to see the      | On the Contact page, there is a google maps | P  |                      |
-| location of the school on a map to help | location at the bottom of the page.         |    |                      |
-| with directions.                        |                                             |    |                      |
-| As a user, I want to be able to see     | The Admission page has information regarding| P  |                      |
-| what the school offers in addition to   | enrichment activities including a carousel of|    |                      |
-| the standard curriculum supported with  | photographs.                               |    |                      |
-| photos.                                 |                                             |    |                      |
-| As a user, I would like to be able to   | In the scholarship section, there is a video| P  |                      |
-| watch a video to indicate what          | of a student undertaking mermaid swimming as|    |                      |
-| Beckminster Crest can offer my child.   | an enrichment activity with a testimony.    |    |                      |
-| As a user, I would like to hear a       | There is a student testimony included in the| P  |                      |
-| students perspective of their school    | Scholarship section under the Admissions    |    |                      |
-| experience.                             | page.                                       |    |                      |
-| As a user, I would prefer the website to|
-| be a one-page, scrollable website.      | 
+| As a user, I want to find information about the school including the age range of students and who the headmaster is. | The Home page displays information about the school including the age range of students and who the current headmaster is. | Yes | [Welcome section](docs/existing-feature-welcome.png "Welcome Section") |
+| As a user, I want to be able to find when the next open day is. | The Home page has a table showing when the next open day is. | Yes | [Open events table](docs/user-testing-open-events-table.png "Open Events Table") |
+| As a user, I want to be able to easily find the school’s contact information. | The school’s contact information is listed in the footer and on the Contact page. | Yes | [Contact information](docs/user-testing-contact-information.png "Contact Information") |
+| As a user, I want to be able to find out the fees for admission and boarding. | The Admissions page contains a table of fees including admission and boarding. | Yes | [Fees tables](docs/user-testing-fees-tables.png "Fees Tables") |
+| As a user, I want to be able to request a brochure. | On the Contact page, users can request a prospectus. | Yes | [Request a prospectus](docs/user-testing-prospectus.png "Request a Prospectus") |
+| As a user, I want to be able to find term dates. | A table of term dates can be found on the Parent Information page. | Yes | [Term dates](docs/existing-feature-parent-information.png "Term Dates") |
+| As a user, I want to be able to find the uniform list. | A uniform list can be found on the Parent Information page. | Yes | [Uniform table](docs/existing-feature-accordion.png "Uniform Table") |
+| As a user, I want to be able to use the website on a range of devices. | The website performs on a range of devices, it's responsive across different viewpoints. | Yes | [Responsive home section](docs/existing-feature-home.png "Responsive Home Section") |
+| As a user, I want to be able to contact the school. | The school's contact information is listed in the footer and there is a contact form. | Yes | [Contact information](docs/user-testing-contact-information.png "Contact Information") |
+| As a user, I want easy to find navigation to the website’s different pages. | The navbar clearly displays the different pages at the top of the website, the navbar is sticky so it remains at the top of the website. | Yes | [Navigation](docs/existing-feature-welcome.png "Navigation") |
+| As a user, I want to be able to contact the school regarding any absences. | The contact form on the Contact Page can be used to request an absence form. | Yes | [Request an absence form](docs/user-testing-absence-form.png "Request an Absence Form") |
+| As a user, I want to be able to find the school's social media accounts. | The school's social media accounts are linked in the footer. | Yes | [Tablet footer](docs/existing-feature-tablet-footer.png "Tablet Footer") |
+| As a user, I would like to see the location of the school on a map to help with directions. | On the Contact page, there is a google maps location at the bottom of the page. | Yes | [Google Maps](docs/existing-feature-contact.png "Google Maps") |
+| As a user, I want to be able to see what the school offers in addition to the standard curriculum supported with photos. | The Admission page has information regarding enrichment activities including a carousel of photographs. | Yes | [Carousel](docs/existing-feature-carousel.png "Carousel") |
+| As a user, I would like to be able to watch a video to indicate what Beckminster Crest can offer my child. | In the scholarship section, there is a video of a student undertaking mermaid swimming as an enrichment activity with a testimony. | Yes | [Video](docs/existing-feature-video.png "Video") |
+| As a user, I would like to hear a student’s perspective of their school experience. | There is a student testimony included in the Scholarship section under the Admissions page. | Yes | [Video](docs/existing-feature-video.png "Video") | 
+| As a user, I would prefer the website to be a one-page, scrollable website. | The website was amended to be a one-page scrollable website with a separate success page. | Yes | [Beckminster Crest](https://lyd-w.github.io/beckminster-crest/ "Beckminster Crest Homepage")|
 
 [Back to contents](#contents)
 
