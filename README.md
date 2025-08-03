@@ -403,7 +403,24 @@ The footer follows a consistant style across all devices, using the same backgro
 
 ## Bugs
 
+I thoroughly tested the website in Safari and Chrome on a Macbook Pro and Safari and Edge on an iPhone 12 Pro Max. Throughout the development of the website, the following bugs were found:
 
+|   Bug Description                         | Resolved |    Resolution Description                               |
+|-------------------------------------------|----------|---------------------------------------------------------|
+| Bootstrap element affecting layout on all | Yes      | Added --bs-gutter-x: 0; to the CSS to remove the gutter.|
+| devices.                                  |          |                                                         |
+| Carousel and video scrolled infront of    | Yes      | Increase the z-index of the navbar to position it in    |
+| navbar.                                   |          | front.                                                  |
+| Navbar links scrolled past the section    | Yes      | Added scroll-padding set to a minimum of the navbar     |
+| headers.                                  |          | height.                                                 |
+| Accordion button showed upside down but   | Yes      | Added -collapsed to the button element in HTML and set  |
+| corrected after two clicks.               |          | aria-expanded to true.                                  |
+| Uniform table expanded outside the        | Yes      | Set the text size on small screens within the media     |
+| accordion body on mobile.                 |          | queries to 10px.                                        |
+| Accordion button arrow became unaligned on| Yes      | Adjusted top and right margins within media queries.    |
+| most screen sizes.                        |          |                                                         |
+| Burger menu would not close automatically | Yes      | Added JavaScript code to HTML.                          |
+| when a link was clicked.                  |          |                                                         |
 
 ## Responsiveness Tests
 
