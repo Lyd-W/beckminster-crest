@@ -255,6 +255,16 @@ button::after {
 
 /* Small devices (mobiles, up to 576px) */
 @media screen and (max-width: 576px) {
+  #header {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #background {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
   #uniform-table {
     font-size: 10px;
   }
