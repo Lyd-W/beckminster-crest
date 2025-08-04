@@ -131,6 +131,14 @@ p {
   max-height: 450px;
 }
 
+#background {
+    color: #000000;
+}
+
+.black-text {
+    color: #000000;
+}
+
 /* Carousel */
 .carousel {
   margin-top: 10px;
