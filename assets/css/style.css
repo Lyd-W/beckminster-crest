@@ -26,11 +26,6 @@ h4 {
   text-align: center;
 }
 
-h1 {
-  /* font-size calc taken from Chrome Inspect Mode for class="display-2" */
-  font-size: calc(1.575rem + 3.9vw);
-}
-
 h3 {
   font-family: var(--primary-font);
   color: var(--secondary-color);
@@ -260,6 +255,10 @@ button::after {
 
 /* Small devices (mobiles, up to 576px) */
 @media screen and (max-width: 576px) {
+  h1 {
+    font-size: 12vw;
+  }
+
   #uniform-table {
     font-size: 10px;
   }
@@ -290,6 +289,10 @@ button::after {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 8vw;
+  }
+
   #event-text {
     padding-left: 8px;
   }
@@ -310,6 +313,10 @@ button::after {
 
 /* Large devices (laptops, 992px and up) */
 @media screen and (min-width: 992px) {
+  h1 {
+    font-size: 7vw;
+  }
+
   #about-text {
     margin-top: -8px;
   }
@@ -352,6 +359,10 @@ button::after {
 
 /* XL devices (xl screens, 1200px and up) */
 @media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 6vw;
+  }
+
   #welcome-text {
     margin-left: 5px;
   }
