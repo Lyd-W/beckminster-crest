@@ -147,7 +147,12 @@ p {
 
 /* Tables */
 #term-table {
-  max-width: 750px;
+    max-width: 750px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #fees-table,
@@ -160,6 +165,11 @@ p {
 #student-testimony-video {
   max-width: 900px;
   margin-bottom: 20px;
+}
+
+/* Testimony */
+#testimony-paragraph {
+    margin-top: 3rem;
 }
 
 /* Accordion */

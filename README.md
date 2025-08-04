@@ -424,6 +424,8 @@ I thoroughly tested the website in Safari and Chrome on a Macbook Pro and Safari
 
 ## Responsiveness Tests
 
+
+
 ## Code Validation
 
 ### HMTL
