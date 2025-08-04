@@ -424,7 +424,9 @@ I thoroughly tested the website in Safari and Chrome on a Macbook Pro and Safari
 
 ## Responsiveness Tests
 
+To check the responsiveness of the website, I thoroughly tested it in Chrome Inspect Mode for Mobile S - 320px, Tablet - 768px, Laptop 1024px and Laptop L - 1440px, on a Macbook Pro in Chrome and Safari as well as on an iPhone 12 Pro Max on Edge and Safari. The website is fully responsive on all devices except for in Chrome Inspect Mode for Mobile S - 320px, the test resulted in the Uniform List 2025 -2026 table extending outside the right hand side of the accordion body which is resolved once the viewpoint reaches a width of 333. To resolve this issue, the table font size would need to be reduced to 9px which I felt impacted the readability. After researching modern phone screen sizes, I found on [Media Genesis](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/ "Media Genesis | Popular Screen Resolutions") that for  Apple and Android mobiles, the smallest width viewpoint is the iPhone 5 at 320 x 568 followed by Samsung Galaxy S7/S7 Edge/S8/S8+/S9/S9+/Note 9 all with a viewport width of 360. As Apple discontinued the iPhone 5 on 10th September 2013 with it's last software update released on 22nd July 2019 according to [Wikipedia](https://en.wikipedia.org/wiki/IPhone_5 "Wikipedia | iPhone 5"), I felt keeping the table font larger for an improved user experience was more pressing than adjusting it to suit a very small number of users with smaller screens.
 
+[Beckminster Crest website demo video](docs/website-demo-video.png "Beckminster Crest Website Demo Video")
 
 ## Code Validation
 
@@ -508,6 +510,12 @@ Changes can still be made to the website through VS Code, they become live once 
 - [Slack](https://slack.com/intl/en-gb/ "Slack")
 - [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")
 - [W3 Schools](https://www.w3schools.com/ "W3 Schools")
+
+#### Information References
+
+- [Media Genesis](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/ "Media Genesis | Popular Screen Resolutions")
+- [Statista](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/ "Statista Article")
+- [Wikipedia](https://en.wikipedia.org/wiki/IPhone_5 "Wikipedia | iPhone 5")
 
 #### Images:
 
