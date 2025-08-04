@@ -396,6 +396,7 @@ The footer follows a consistant style across all devices, using the same backgro
 - [Balsamiq](https://balsamiq.com/ "Balsamiq Homepage")
 - [Chat GPT](https://chatgpt.com/ "Chat GPT Homepage")
 - [GitHub](https://github.com "GitHub Homepage")
+- [Google Chrome Inspect Mode](https://developer.chrome.com/docs/devtools/inspect-mode "Google Chrome Inspect Mode")
 - [JSHint](https://jshint.com/ "JSHint Homepage")
 - [Responsive Deisgn Checker](https://responsivedesignchecker.com/ "Responsive Design Checker Homepage")
 - [Videobolt](https://videobolt.net/simple-video-tools/resize "Videobolt Homepage")
