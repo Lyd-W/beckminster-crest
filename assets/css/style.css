@@ -26,6 +26,11 @@ h4 {
   text-align: center;
 }
 
+h1 {
+  /* font-size calc taken from Chrome Inspect Mode for class="display-2" */
+  font-size: calc(1.575rem + 3.9vw);
+}
+
 h3 {
   font-family: var(--primary-font);
   color: var(--secondary-color);
