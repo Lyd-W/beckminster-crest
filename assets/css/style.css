@@ -256,7 +256,7 @@ button::after {
 /* Small devices (mobiles, up to 576px) */
 @media screen and (max-width: 576px) {
   h1 {
-    font-size: 12vw;
+    font-size: 10vw;
   }
 
   #uniform-table {
