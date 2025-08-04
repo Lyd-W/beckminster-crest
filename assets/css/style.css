@@ -1,352 +1,340 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 /* CSS Variables */
 :root {
-    --primary-font: "Playfair Display", cursive;
-    --secondary-font: "PT Sans", sans-serif;
-    --primary-color: #1a2c20; /* dark green */
-    --secondary-color:#cdcdbd; /* bone */
-    --highlight-color: #7b8175; /*battleship-gray */
-    --highlight-color-light: #d7d8d8; /* platinum */
+  --primary-font: "Playfair Display", cursive;
+  --secondary-font: "PT Sans", sans-serif;
+  --primary-color: #1a2c20; /* dark green */
+  --secondary-color: #cdcdbd; /* bone */
+  --highlight-color: #7b8175; /*battleship-gray */
+  --highlight-color-light: #d7d8d8; /* platinum */
 }
 
 /* Global styles */
 body {
-    font-family: var(--secondary-font);
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+  font-family: var(--secondary-font);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
-h1, 
+h1,
 h2,
 h4 {
-    font-family: var(--primary-font);
-    color: var(--primary-color);
-    text-align: center;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  text-align: center;
 }
 
 h3 {
-    font-family: var(--primary-font);
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    border: 5px solid var(--highlight-color);
-    margin-top: 50px;
-    margin-bottom: 25px;
-    text-align: center;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: 5px solid var(--highlight-color);
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 h4 {
-    margin-top: 25px;
-    margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 a {
-    color: var(--primary-color);
-    text-decoration: underline;
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
-html { /* Assisted by W3schools.com */
-   scroll-padding-top: 68px;
-   scroll-behavior: smooth;
+html {
+  /* Assisted by W3schools.com */
+  scroll-padding-top: 68px;
+  scroll-behavior: smooth;
 }
 
-p { /* Formula imported from matthewjamestaylor.com */
-    font-size: calc(15px + 0.390625vw);
-    
+p {
+  /* Formula imported from matthewjamestaylor.com */
+  font-size: calc(15px + 0.390625vw);
 }
 
 /* Buttons */
 .custom-button-outline {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .custom-button-outline:hover {
-    background-color: var(--highlight-color);
-    color: var(--primary-color)
+  background-color: var(--highlight-color);
+  color: var(--primary-color);
 }
 
 /* Google maps */
 .google-map {
-    padding-bottom: 50%;
-    position: relative;
-    margin-bottom: 10px;
+  padding-bottom: 50%;
+  position: relative;
+  margin-bottom: 10px;
 }
 
-.google-map iframe{
-    height: 100%;
-    width: 100%;
-    left: 0;
-    right: 0;
-    position: absolute;
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
 
 /* Contact form */
 #contact-form {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .fa-solid {
-    margin-bottom: 0rem;
+  margin-bottom: 0rem;
 }
 
 /* Navbar */
 #navbar {
-    background-color: var(--primary-color);
-    font-family: var(--primary-font);
-    position: sticky;
-    top: 0;
-    /* To push navbar infront of carousel and video / Assisted by stackoverflow.com */
-    z-index: 10;  
+  background-color: var(--primary-color);
+  font-family: var(--primary-font);
+  position: sticky;
+  top: 0;
+  /* To push navbar infront of carousel and video / Assisted by stackoverflow.com */
+  z-index: 10;
 }
 
 #navbar .logo {
-    width: 36px;
+  width: 36px;
 }
 
 #navbar .nav-text {
-    color: var(--secondary-color) !important;
+  color: var(--secondary-color) !important;
 }
 
+/* Header */
 #header {
-    text-align: center;
-    color: var(--primary-color);
+  text-align: center;
+  color: var(--primary-color);
 }
 
 #background {
-    max-height: 90vh;
+  max-height: 90vh;
 }
 
+/* Images */ 
 #dean {
-    max-height: 400px;
-    margin-bottom: 10px;
+  max-height: 400px;
+  margin-bottom: 10px;
 }
 
 #about-image {
-    max-height: 450px;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
+  max-height: 450px;
 }
 
 /* Carousel */
 .carousel {
-    margin-top: 10px;
-    margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 /* Tables */
 #term-table {
-    max-width: 750px;
+  max-width: 750px;
 }
 
 #fees-table,
 #additional-fees-table {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Videos */
 #student-testimony-video {
-    max-width: 900px;
-    margin-bottom: 20px;
+  max-width: 900px;
+  margin-bottom: 20px;
 }
 
-/* Accordion */ 
+/* Accordion */
 .accordion-button:not(.collapsed) {
-    color :var(--primary-color);
-    background-color: var(--secondary-color);
-    border: 3px solid var(--highlight-color);
-    outline: 2px solid var(--primary-color);
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    z-index: 0;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 3px solid var(--highlight-color);
+  outline: 2px solid var(--primary-color);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  z-index: 0;
 }
 
 .accordion-button {
-    display: block;
-    color :var(--primary-color);
-    background-color: var(--secondary-color);
-    border: 3px solid var(--highlight-color);
-    outline: 2px solid var(--primary-color);
-    z-index: 0;
+  display: block;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 3px solid var(--highlight-color);
+  outline: 2px solid var(--primary-color);
+  z-index: 0;
 }
 
 button::after {
-    position: absolute;
-    z-index: 100;
-    right: 30px;
-    top: 25px;
-  }
+  position: absolute;
+  z-index: 100;
+  right: 30px;
+  top: 25px;
+}
 
-  .accordion-body {
-    background-color: #cdcdbd;
-    border: 3px solid var(--highlight-color);
-    padding: 0rem;
-  }
+.accordion-body {
+  background-color: #cdcdbd;
+  border: 3px solid var(--highlight-color);
+  padding: 0rem;
+}
 
-  #accordion-uniform {
-    margin-bottom: 10px;
-  }
+#accordion-uniform {
+  margin-bottom: 10px;
+}
 
 /* Remove Bootstrap gutter to remove horizontal scoll / Assisted by Code Institute Tutor Assistance */
 .row {
-    --bs-gutter-x: 0;
+  --bs-gutter-x: 0;
 }
 
 /* Success page */
 #success {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 /* Footer */
 #contact-info {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    text-align: center;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
 }
 
 /* Styling for icons */
 #contact-info i {
-    color: var(--secondary-color);
-    margin-right: 15px;
+  color: var(--secondary-color);
+  margin-right: 15px;
 }
 
 #contact-info .social-links {
-    font-size: 1.9rem;
-    /* Transition imported from Boardwalk Games project */
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out;
+  font-size: 1.9rem;
+  /* Transition imported from Boardwalk Games project */
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 /* Highlight social links when hovered over */
 #contact-info .social-links i:hover {
-    color: var(--highlight-color);
+  color: var(--highlight-color);
 }
 
 #contact-information i {
-    color: var(--primary-color);
-    margin-right: 7px;
-    
+  color: var(--primary-color);
+  margin-right: 7px;
 }
 
 /* Media queries */
 
 /* Small devices (mobiles, upto 576px) */
 @media screen and (max-width: 576px) {
-    #uniform-table{
-        font-size: 10px;
-    }
- 
-    .accordion-button:not(.collapsed) {
-        color :var(--primary-color);
-        background-color: var(--secondary-color);
-        border: 3px solid var(--highlight-color);
-        outline: 2px solid var(--primary-color);
-        -webkit-box-shadow: none;
-                box-shadow: none;
-        z-index: 0;
-    }
+  #uniform-table {
+    font-size: 10px;
+  }
 
-    .accordion-button {
-        padding-left: 15px;
-    }
- 
-    button::after {
-        top: 16px;
-        right: 13px;
-   }
+  .accordion-button:not(.collapsed) {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--highlight-color);
+    outline: 2px solid var(--primary-color);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    z-index: 0;
+  }
 
-    .google-map {
-        margin-bottom: 30px;
-    }
+  .accordion-button {
+    padding-left: 15px;
+  }
+
+  button::after {
+    top: 16px;
+    right: 13px;
+  }
+
+  .google-map {
+    margin-bottom: 30px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    #event-text {
-        padding-left: 25px;
-    }
+  #event-text {
+    padding-left: 25px;
+  }
 
-    .google-map {
-        margin-bottom: 30px;
-    }
+  .google-map {
+    margin-bottom: 30px;
+  }
 
-    #about-image{
-        margin-top: 10px;
-    }
- 
-    button::after {
-        top: 16px;
-        right: 13px;
-   }
+  #about-image {
+    margin-top: 10px;
+  }
+
+  button::after {
+    top: 16px;
+    right: 13px;
+  }
 }
 
 /* Large devices (laptops, 992px and up) */
 @media screen and (min-width: 992px) {
+  #about-text {
+    margin-top: -8px;
+  }
 
-    #about-text {
-        margin-top: -8px;
-    }
+  #about-image {
+    margin-top: 0px;
+  }
 
-    #about-image{
-        margin-top: 0px;
-    }
+  .google-map {
+    margin-right: 15px;
+  }
 
-    .google-map {
-        margin-right: 15px;
-    }
+  #contact-information {
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+  }
 
-    #contact-information{
-        font-size: large;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-left: 100px;
-    }
+  #enrichment-paragraph {
+    padding-left: 20px;
+    padding-top: 5px;
+  }
 
-    #enrichment-paragraph {
-        padding-left: 20px;
-        padding-top: 5px;
-    }
+  #fees-table {
+    float: left;
+    width: 50%;
+  }
 
-    #fees-table {
-        float: left;
-        width: 50%;
-    }
+  #additional-fees-table {
+    float: left;
+    width: 44%;
+    margin-left: 50px;
+  }
 
-    #additional-fees-table {
-        float: left;
-        width: 44%;
-        margin-left: 50px;
-    }
-
-    #phone-email-address {
-        margin-top: 15px;
-}
+  #phone-email-address {
+    margin-top: 15px;
+  }
 }
 
 /* XL devices (xl screens, 1200px and up) */
 @media screen and (min-width: 1200px) {
-
-#parent-paragraph {
+  #parent-paragraph {
     max-width: 900px;
-}
+  }
 
-#phone-email-address {
+  #phone-email-address {
     margin-top: 72px;
-}
+  }
 }
