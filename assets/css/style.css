@@ -256,7 +256,7 @@ button::after {
 /* Small devices (mobiles, up to 576px) */
 @media screen and (max-width: 576px) {
   #uniform-table {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .accordion-button:not(.collapsed) {
