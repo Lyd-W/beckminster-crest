@@ -99,7 +99,7 @@ p {
   font-family: var(--primary-font);
   position: sticky;
   top: 0;
-  /* To push navbar infront of carousel and video / Assisted by stackoverflow.com */
+  /* To push navbar in front of carousel and video / Assisted by stackoverflow.com */
   z-index: 10;
 }
 
@@ -191,7 +191,7 @@ button::after {
   margin-bottom: 10px;
 }
 
-/* Remove Bootstrap gutter to remove horizontal scoll / Assisted by Code Institute Tutor Assistance */
+/* Remove Bootstrap gutter to remove horizontal scroll / Assisted by Code Institute Tutor Assistance */
 .row {
   --bs-gutter-x: 0;
 }
@@ -236,7 +236,7 @@ button::after {
 
 /* Media queries */
 
-/* Small devices (mobiles, upto 576px) */
+/* Small devices (mobiles, up to 576px) */
 @media screen and (max-width: 576px) {
   #uniform-table {
     font-size: 10px;
