@@ -423,6 +423,7 @@ I thoroughly tested the website in Safari and Chrome on a Macbook Pro and Safari
 | Uniform table expanded outside the accordion body on mobile. | Yes | Set the text size on small screens within the media queries to 10px. |
 | Accordion button arrow became unaligned on most screen sizes. | Yes | Adjusted top and right margins within media queries. |
 | Burger menu would not close automatically when a link was clicked. | Yes | Added JavaScript code to HTML. |
+| On mobile, the video opened in full screen when page links jumped past it. | Yes | Added 'playinline' to video's HTML. |
 | Success page displays button overlapping footer when viewed on [Am I Responsive?](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/success.html "Am I Responsive? Beckminster Crest Success Page") mobile view (320x480). | No | Tests on Chrome Inspect Mode - Mobile and iPhone 12 Pro Max on Edge and Safari did not replicate issue. |
 | Uniform 2025 - 2026 table extends outside the right hand side of the accordion body on viewpoints smaller than 332. | No | This can be resolved by reducing the table font size to 9px which negatively impacts user experience. See responsiveness tests below for futher details. |
 
