@@ -155,13 +155,11 @@ I then used [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0
 
 |CSS Name               |HEX          |Use
 |-----------------------|-------------|------------------------------------------------|
-|   --platinum          |   #d7d8d8   | Light highlight colour                          |
-|   --dark-green        |   #1a2c20   | Header and body font colour, navbar and footer |
-|                       |             | background colour, buttons                     |
-|   --battleship-gray   |   #7b8175   | Highlight colour, button and social media hover|
-|   --bone              |   #cdcdbd   | Background colour, secondary text for buttons, |
-|                       |             | navbar, footer                                 |
-|   --black             |   #000000   | Dark highlight colour                          |
+|   --platinum          |   #d7d8d8   | Light highlight colour. |
+|   --dark-green        |   #1a2c20   | Header and body font colour, navbar and footer background colour, buttons. |
+|   --battleship-gray   |   #7b8175   | Highlight colour, button and social media hover. |
+|   --bone              |   #cdcdbd   | Background colour, secondary text for buttons, navbar, footer. |
+|   --black             |   #000000   | Dark highlight colour. |
 
 All colours were used except for #d7d8d8, although it was one of the colours to score the highest contrast score on [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23D7D8D8%0D%0A%231A2C20%0D%0A%237B8175%0D%0A%23CDCDBD%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp "Contract Grid | Chosen Colour Scheme"), it did not feel in keeping with the schools elegant, more sophisticated style at this time, however, if the website was to be expanded in the future, it could be used for extra styling and lighter highlights.
 
@@ -251,7 +249,7 @@ The navigation on laptops has a highlight effect when hovered over with the mous
 
 ### Header
 
-The Beckminster Crest website has consistent headers on all devices, showing the schools name in the header font, followed by the school's slogan in the same font in italics.
+The Beckminster Crest website has consistent headers on all devices, showing the school's name in the header font, followed by the school's slogan in the same font in italics.
 
 <b>Mobile header</b>
 
@@ -273,7 +271,7 @@ The Beckminster Crest website has consistent headers on all devices, showing the
 
 ### Home Section
 
-The home view features the schools name and slogan in eye catching text along with a photo of the main school building. It carries a consistent style across different devices using the school's colours as well as being responsive.
+The home view features the school's name and slogan in eye catching text along with a photo of the main school building. It carries a consistent style across different devices using the school's colours as well as being responsive.
 
 ![Home section](docs/existing-feature-home.png "Home Section")
 
@@ -309,7 +307,7 @@ The Admissions section shows the section header, followed by a paragraph contain
 
 ### Parent Information Section
 
-The Parent Information section contains a brief paragraph including a link to the contact section for user convenience with the layout remaining consistent on different screen sizes. The Parent Information section displays term dates in a table and the schools uniform list in a Bootstrap accordion feature, this helps to organise the website and reduces visual noise for the user.
+The Parent Information section contains a brief paragraph including a link to the contact section for user convenience with the layout remaining consistent on different screen sizes. The Parent Information section displays term dates in a table and the school's uniform list in a Bootstrap accordion feature, this helps to organise the website and reduces visual noise for the user.
 
 ![Parent information section](docs/existing-feature-parent-information.png "Parent Information Section")
 
@@ -323,7 +321,7 @@ The Parent Information section contains a brief paragraph including a link to th
 
 ### Contact Section
 
-The Contact section holds a paragraph of text regarding contacting the school, below this a location on Google Maps is included with the school's contact information. Below this there is a contact form for users to send in enquiries about the school with some pre-set topics as well as a general enquiry for any topics not listed, the form has set field entry requirements to prevent submission of an incomplete form. The layout style, is again, consistent with the rest of the website with the mobile and tablet view showing the information stacked, moving onto larger screens, the location and schools contact information sit next to each other for a smoother finish.
+The Contact section holds a paragraph of text regarding contacting the school, below this a location on Google Maps is included with the school's contact information. Below this there is a contact form for users to send in enquiries about the school with some pre-set topics as well as a general enquiry for any topics not listed, the form has set field entry requirements to prevent submission of an incomplete form. The layout style, is again, consistent with the rest of the website with the mobile and tablet view showing the information stacked, moving onto larger screens, the location and school's contact information sit next to each other for a smoother finish.
 
 ![Contact section](docs/existing-feature-contact.png "Contact Section")
 
@@ -335,7 +333,7 @@ The Contact section holds a paragraph of text regarding contacting the school, b
 
 ### Success Page
 
-The website includes a Success page to give the user feedback regarding the status of their contact enquiry when the form has been filled in correctly, this helps to provide a better experience for the user by informing them that their enquiry has been received. When using [Am I Responsive?](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/success.html "Am I Responsive? | Success Page View"), I noticed the layout on the mobile screen loses the expected layout. I then checked this on an iPhone 12 Pro Max using both Safari and Edge to see whether this was a coding error or due to the way Am I Responsive? displays the success page. I found both browsers on iPhone to display the expected layout.
+The website includes a Success page to give the user feedback regarding the status of their contact enquiry when the form has been filled in correctly. This helps to provide a better experience for the user by informing them that their enquiry has been received. When using [Am I Responsive?](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/success.html "Am I Responsive? | Success Page View"), I noticed the layout on the mobile screen loses the expected layout. I then checked this on an iPhone 12 Pro Max using both Safari and Edge to see whether this was a coding error or due to the way Am I Responsive? displays the success page. I found both browsers on iPhone to display the expected layout.
 
 ![Success page view](docs/existing-feature-success.png "Success Page View")
 
@@ -429,14 +427,14 @@ I thoroughly tested the website in Safari and Chrome on a MacBook Pro and Safari
 | Uniform table expanded outside the accordion body on mobile. | Yes | Set the text size on small screens within the media queries to 10px. |
 | Accordion button arrow became unaligned on most screen sizes. | Yes | Adjusted top and right margins within media queries. |
 | Burger menu would not close automatically when a link was clicked. | Yes | Added JavaScript code to HTML. |
-| On mobile, the video opened in full screen when page links jumped past it. | Yes | Added 'playinline' to video's HTML. |
+| On mobile, the video opened in full screen when page links jumped past it. | Yes | Added 'playsinline' to video's HTML. |
 | Success page displays button overlapping footer when viewed on [Am I Responsive?](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/success.html "Am I Responsive? Beckminster Crest Success Page") mobile view (320x480). | No | Tests on Chrome Inspect Mode - Mobile and iPhone 12 Pro Max on Edge and Safari did not replicate issue. |
 | Uniform 2025 - 2026 table extends outside the right hand side of the accordion body on viewpoints smaller than 332. | No | This can be resolved by reducing the table font size to 9px which negatively impacts user experience. See responsiveness tests below for further details. |
 
 
 ## Responsiveness Tests
 
-I deployed the website quite early on in the project to allow for checking the websites responsiveness. I used [Am I Responsive?](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/index.html "Am I Responsive? | Beckminster Crest") to test how responsive the website was on different screen sizes. I found the website was responsive on all screen sizes, however, on the Am I Responsive mobile screen size (320x480), the success page did not display as intended. When checked on an iPhone 12 Pro Max on Edge and Safari, this issue was not present.
+I deployed the website quite early on in the project to allow for checking the websites responsiveness. I used [Am I Responsive?](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/index.html "Am I Responsive? | Beckminster Crest") to test how responsive the website was on different screen sizes. I found the website was responsive on all screen sizes, however, on the Am I Responsive mobile screen size (320x480), the success page did not display as intended. When checked on an iPhone 12 Pro Max on Edge and Safari, this issue was not present. The issue is also not replicated when examining the website using Chrome Inspect, therefore this appears to be an artifact caused by Am I Responsive?, rather than a bug within the code.
 
 To check the responsiveness of the website, I thoroughly tested it in Chrome Inspect Mode for Mobile S - 320px, Tablet - 768px, Laptop 1024px and Laptop L - 1440px, on a MacBook Pro in Chrome and Safari as well as on an iPhone 12 Pro Max on Edge and Safari. The website is fully responsive on all devices except for in Chrome Inspect Mode for Mobile S - 320px, the test resulted in the Uniform table 2025 - 2026 table extending outside the right hand side of the accordion body which is resolved once the viewpoint reaches a width of 332. To resolve this issue, the table font size would need to be reduced to 9px which I felt impacted the readability. After researching modern phone screen sizes, I found on [Media Genesis](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/ "Media Genesis | Popular Screen Resolutions") that for  Apple and Android mobiles, the smallest width viewpoint is the iPhone 5 at 320 x 568 followed by Samsung Galaxy S7/S7 Edge/S8/S8+/S9/S9+/Note 9 all with a viewport width of 360. As Apple discontinued the iPhone 5 on 10th September 2013 with its last software update released on 22nd July 2019 according to [Wikipedia](https://en.wikipedia.org/wiki/IPhone_5 "Wikipedia | iPhone 5"), I felt keeping the table font larger for an improved user experience was more pressing than adjusting it to suit a very small number of users with smaller screens.
 
@@ -484,7 +482,7 @@ As I have used JavaScript for some of the functions in the website, I tested the
 | As a user, I want easy to find navigation to the website’s different pages. | The navbar clearly displays the different pages at the top of the website, the navbar is sticky so it remains at the top of the website. | Yes | [Navigation](docs/existing-feature-welcome.png "Navigation") |
 | As a user, I want to be able to contact the school regarding any absences. | The contact form on the Contact Page can be used to request an absence form. | Yes | [Request an absence form](docs/user-testing-absence-form.png "Request an Absence Form") |
 | As a user, I want to be able to find the school's social media accounts. | The school's social media accounts are linked in the footer. | Yes | [Tablet footer](docs/existing-feature-tablet-footer.png "Tablet Footer") |
-| As a user, I would like to see the location of the school on a map to help with directions. | On the Contact page, there is a google maps location at the bottom of the page. | Yes | [Google Maps](docs/existing-feature-contact.png "Google Maps") |
+| As a user, I would like to see the location of the school on a map to help with directions. | On the Contact page, there is a Google Maps location at the bottom of the page. | Yes | [Google Maps](docs/existing-feature-contact.png "Google Maps") |
 | As a user, I want to be able to see what the school offers in addition to the standard curriculum supported with photos. | The Admission page has information regarding enrichment activities including a carousel of photographs. | Yes | [Carousel](docs/existing-feature-carousel.png "Carousel") |
 | As a user, I would like to be able to watch a video to indicate what Beckminster Crest can offer my child. | In the scholarship section, there is a video of a student undertaking mermaid swimming as an enrichment activity with a testimony. | Yes | [Video](docs/existing-feature-video.png "Video") |
 | As a user, I would like to hear a student’s perspective of their school experience. | There is a student testimony included in the Scholarship section under the Admissions page. | Yes | [Video](docs/existing-feature-video.png "Video") | 
@@ -518,7 +516,7 @@ I have also used [WAVE](https://wave.webaim.org/report#/https://lyd-w.github.io/
 
 The Beckminster Crest website has been tested in [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/inspect-mode "Google Chrome Dev Tools") using the Lighthouse Testing tool to check:
 
-* Performance - this measures the efficiency of a page loading and running.
+* Performance - this measures the efficiency of the page loading and running.
 * Accessibility - this assesses the usability of the page for all people, especially those with disabilities.
 * Best Practices - this checks how the page compares to a set of established web development practices.
 
