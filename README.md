@@ -404,6 +404,7 @@ The footer follows a consistent style across all devices, using the same backgro
 - [GitHub](https://github.com "GitHub Homepage")
 - [Google Chrome Inspect Mode](https://developer.chrome.com/docs/devtools/inspect-mode "Google Chrome Inspect Mode")
 - [JSHint](https://jshint.com/ "JSHint Homepage")
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode "Prettier - Code Formatter")
 - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker Homepage")
 - [Videobolt](https://videobolt.net/simple-video-tools/resize "Videobolt Homepage")
 - [VS Code](https://code.visualstudio.com/ "VS Code Homepage")
