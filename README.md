@@ -391,6 +391,7 @@ The footer follows a consistant style across all devices, using the same backgro
 
 ## Tools and Programmes
 
+- [Accessibility Checker](https://www.accessibilitychecker.org/ "Accessibility Homepage")
 - [Am I Responsive?](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/index.html "Am I Responsive? | Beckminster Crest")
 - [Autoprefixer CSS online](https://autoprefixer.github.io/ "Autoprefixer CSS Online Homepage")
 - [Balsamiq](https://balsamiq.com/ "Balsamiq Homepage")
@@ -403,6 +404,7 @@ The footer follows a consistant style across all devices, using the same backgro
 - [VS Code](https://code.visualstudio.com/ "VS Code Homepage")
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validation Service Homepage")
 - [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input "W3C HTML Validation Service Homepage")
+- [WAVE](https://wave.webaim.org/report#/https://lyd-w.github.io/beckminster-crest/index.html "WAVE | Beckminster Crest Report")
 
 [Back to contents](#contents)
 
@@ -422,16 +424,22 @@ I thoroughly tested the website in Safari and Chrome on a Macbook Pro and Safari
 | Accordion button arrow became unaligned on most screen sizes. | Yes | Adjusted top and right margins within media queries. |
 | Burger menu would not close automatically when a link was clicked. | Yes | Added JavaScript code to HTML. |
 | Success page displays button overlapping footer when viewed on [Am I Responsive?](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/success.html "Am I Responsive? Beckminster Crest Success Page") mobile view (320x480). | No | Tests on Chrome Inspect Mode - Mobile and iPhone 12 Pro Max on Edge and Safari did not replicate issue. |
-| Uniform List 2025 - 2026 table extends outside the right hand side of the accordion body on viewpoints smaller than 332. | No | This can be resolved by reducing the table font size to 9px which negatively impacts user experience. See responsiveness tests below for futher details. |
+| Uniform 2025 - 2026 table extends outside the right hand side of the accordion body on viewpoints smaller than 332. | No | This can be resolved by reducing the table font size to 9px which negatively impacts user experience. See responsiveness tests below for futher details. |
 
 
 ## Responsiveness Tests
 
 I deployed the website quite early on in the project to allow for checking the websites responsiveness. I used [Am I Responsive?](https://ui.dev/amiresponsive?url=https://lyd-w.github.io/beckminster-crest/index.html "Am I Responsive? | Beckminster Crest") to test how responsive the website was on differernt screen sizes. I found the website was responsive on all screen sizes, however, on the Am I Responsive mobile screen size (320x480), the success page did not display as intended. When checked on an iPhone 12 Pro Max on Edge and Safari, this issue was not present.
 
-To check the responsiveness of the website, I thoroughly tested it in Chrome Inspect Mode for Mobile S - 320px, Tablet - 768px, Laptop 1024px and Laptop L - 1440px, on a Macbook Pro in Chrome and Safari as well as on an iPhone 12 Pro Max on Edge and Safari. The website is fully responsive on all devices except for in Chrome Inspect Mode for Mobile S - 320px, the test resulted in the Uniform List 2025 -2026 table extending outside the right hand side of the accordion body which is resolved once the viewpoint reaches a width of 332. To resolve this issue, the table font size would need to be reduced to 9px which I felt impacted the readability. After researching modern phone screen sizes, I found on [Media Genesis](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/ "Media Genesis | Popular Screen Resolutions") that for  Apple and Android mobiles, the smallest width viewpoint is the iPhone 5 at 320 x 568 followed by Samsung Galaxy S7/S7 Edge/S8/S8+/S9/S9+/Note 9 all with a viewport width of 360. As Apple discontinued the iPhone 5 on 10th September 2013 with it's last software update released on 22nd July 2019 according to [Wikipedia](https://en.wikipedia.org/wiki/IPhone_5 "Wikipedia | iPhone 5"), I felt keeping the table font larger for an improved user experience was more pressing than adjusting it to suit a very small number of users with smaller screens.
+To check the responsiveness of the website, I thoroughly tested it in Chrome Inspect Mode for Mobile S - 320px, Tablet - 768px, Laptop 1024px and Laptop L - 1440px, on a Macbook Pro in Chrome and Safari as well as on an iPhone 12 Pro Max on Edge and Safari. The website is fully responsive on all devices except for in Chrome Inspect Mode for Mobile S - 320px, the test resulted in the Uniform table 2025 - 2026 table extending outside the right hand side of the accordion body which is resolved once the viewpoint reaches a width of 332. To resolve this issue, the table font size would need to be reduced to 9px which I felt impacted the readability. After researching modern phone screen sizes, I found on [Media Genesis](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/ "Media Genesis | Popular Screen Resolutions") that for  Apple and Android mobiles, the smallest width viewpoint is the iPhone 5 at 320 x 568 followed by Samsung Galaxy S7/S7 Edge/S8/S8+/S9/S9+/Note 9 all with a viewport width of 360. As Apple discontinued the iPhone 5 on 10th September 2013 with it's last software update released on 22nd July 2019 according to [Wikipedia](https://en.wikipedia.org/wiki/IPhone_5 "Wikipedia | iPhone 5"), I felt keeping the table font larger for an improved user experience was more pressing than adjusting it to suit a very small number of users with smaller screens.
 
 [Beckminster Crest website demo video](docs/website-demo-video.mp4 "Beckminster Crest Website Demo Video")
+
+![Uniform table in Chrome Inspect Mode](docs/uniform-list-table-chrome-inspect.png "Uniform Table in Chrome Inspect Mode")
+
+![Uniform table on iPhone 12 Pro Max - Safari](docs/uniform-list-table-mobile-safari.jpg "Uniform table on iPhone 12 Pro Max - Safari")
+
+![Uniform table on iPhone 12 Pro Max - Edge](docs/uniform-list-table-mobile-edge.jpg "Uniform table on iPhone 12 Pro Max - Edge")
 
 ## Code Validation
 
@@ -484,6 +492,20 @@ To check the features of the website, I thoroughly tested them in Chrome Inspect
 [Beckminster Crest website demo video](docs/website-demo-video.mp4 "Beckminster Crest Website Demo Video")
 
 ## Accessibility Testing
+
+I have used [Accessibility Checker](https://www.accessibilitychecker.org/ "Accessibility Homepage") to run an accessibility scan on the website, it returned no critical issues.
+
+![Accessibility Checker Part 1](docs/accessibility-checker.org-1.png "Accessibility Checker Part 1")
+
+![Accessibility Checker Part 2](docs/accessibility-checker.org-2.png "Accessibility Checker Part 2")
+
+I have also used [WAVE](https://wave.webaim.org/report#/https://lyd-w.github.io/beckminster-crest/index.html "WAVE | Beckminster Crest Report") to create an accessibility report on the website. It returned no errors, however it found 2 contrast errors with the controls on the Bootstrap Carousel. To keep the natural atmosphere the website has, I have kept the subtle controls rather than amending them, this also avoids distracting from the content. WAVE also reported an alert for the video element included in the Student Testimony section, highlighting the potential for accessibility issues. To reduce these I have included an aria-label describing the video content and set the video to play muted.
+
+![WAVE Report Summary](docs/wave-report-summary.png "WAVE Report Summary")
+
+![WAVE Report Part 1](docs/wave-report-page-1.png "WAVE Report Part 1")
+
+![WAVE Report Part 2](docs/wave-report-page-2.png "WAVE Report Part 2")
 
 ## Lighthouse Testing
 
