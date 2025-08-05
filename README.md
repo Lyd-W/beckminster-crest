@@ -489,6 +489,8 @@ To check the features of the website, I thoroughly tested them in Chrome Inspect
 
 ## Browser Testing
 
+The website has been tested on a Macbook Pro in Chrome and Safari, it functions as expected with no obvious issues. The website has also been tested on an iPhone 12 Pro Max on Safari and Edge, it functions as expected with no obvious issues.
+
 # Deployment
 
 The Beckminster Crest website was deployed on GitHub early on in the development process to highlight any possible issues that could occur. The steps used to deploy the website are as follows:
