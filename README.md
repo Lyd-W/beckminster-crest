@@ -487,7 +487,7 @@ As I have used JavaScript for some of the functions in the wesbite, I tested the
 
 ## Feature Testing
 
-To check the features of the website, I thoroughly tested them in Chrome Inspect Mode for Mobile S - 320px, Tablet - 768px, Laptop 1024px and Laptop L - 1440px, on a Macbook Pro in Chrome and Safari as well as on an iPhone 12 Pro Max on Edge and Safari. The features of the website were fully functional on all devices.
+To check the features of the website, I thoroughly tested them in Chrome Inspect Mode for Mobile S - 320px, Tablet - 768px, Laptop 1024px and Laptop L - 1440px, on a Macbook Pro in Chrome and Safari as well as on an iPhone 12 Pro Max on Edge and Safari. The features of the website were fully functional on all devices. I also asked family and friends to explore the website and report any issues or bugs they found, none were found.
 
 [Beckminster Crest website demo video](docs/website-demo-video.mp4 "Beckminster Crest Website Demo Video")
 
