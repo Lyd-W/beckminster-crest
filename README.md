@@ -450,7 +450,7 @@ To check the responsiveness of the website, I thoroughly tested it in Chrome Ins
 
 ## Code Validation
 
-### HMTL
+### HTML
 
 I have used [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri "W3C HTML Validation Service") to validate the HTML, no errors were returned.
 
