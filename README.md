@@ -97,7 +97,7 @@ The Beckminster Crest website provides key details about the prestigious, privat
 * Provide information to current students and families.
 * Attract prospective students and families to engage with the website.
 * Offer useful and accurate information to encourage users to explore the website.
-* Give users the option to contact the school through a form with options such as, general enquires, school absences, request a brochure, visit the school, scholarships and bursaries, career opportunities.
+* Give users the option to contact the school through a form with options such as, general enquiries, school absences, request a brochure, visit the school, scholarships and bursaries, career opportunities.
 * The website should be functional on various devices.
 
 [Back to contents](#contents)
@@ -185,7 +185,7 @@ The website is responsive to different screen sizes with the breakpoints taken f
 
 # Features
 
-A website with a clear and easy to use layout that is responsive on all devices that can be recognised as the school's website through the use of the school's logo, colours and font families. The user can easily find the information they require on the clearly identified pages/sections with the ability to use a contact form if they have further enquires. There are also images throughout the site to demonstrate different aspects of the school with a large focus on enrichment activities that are displayed in a carousel. To encourage interaction, there is a video showing footage of a student participating in mermaid swimming, I chose to display this activity as it is unique and more likely to attract interest whilst highlighting Beckminster Crest encourages and supports all types of enrichment. 
+A website with a clear and easy to use layout that is responsive on all devices that can be recognised as the school's website through the use of the school's logo, colours and font families. The user can easily find the information they require on the clearly identified pages/sections with the ability to use a contact form if they have further enquiries. There are also images throughout the site to demonstrate different aspects of the school with a large focus on enrichment activities that are displayed in a carousel. To encourage interaction, there is a video showing footage of a student participating in mermaid swimming, I chose to display this activity as it is unique and more likely to attract interest whilst highlighting Beckminster Crest encourages and supports all types of enrichment. 
 
 Due to the large amount of information required for the uniform table, I chose to add a [Bootstrap accordion](https://getbootstrap.com/docs/5.3/components/accordion/ "Bootstrap - Accordion") feature so the user can open the full table if required, this prevents unnecessary visual clutter and scrolling. To help users locate where the school is, a location shown using [Google Maps](https://www.google.com/maps/place/Edinburgh+Castle/@55.9485977,-3.2024938,17z/data=!3m1!4b1!4m6!3m5!1s0x4887c79a2099c0f7:0x469a1eebe54c0a58!8m2!3d55.9485947!4d-3.1999135!16zL20vMGpwbl8?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D "Google Maps | Edinburgh Castle") has been included. As the school does not exist, the location used is Edinburgh Castle.
 
@@ -323,7 +323,7 @@ The Parent Information section contains a brief paragraph including a link to th
 
 ### Contact Section
 
-The Contact section holds a paragraph of text regarding contacting the school, below this a location on Google Maps is included with the school's contact information. Below this there is a contact form for users to send in enquires about the school with some pre-set topics as well as a general enquiry for any topics not listed, the form has set field entry requirements to prevent submission of an incomplete form. The layout style, is again, consistent with the rest of the website with the mobile and tablet view showing the information stacked, moving onto larger screens, the location and schools contact information sit next to each other for a smoother finish.
+The Contact section holds a paragraph of text regarding contacting the school, below this a location on Google Maps is included with the school's contact information. Below this there is a contact form for users to send in enquiries about the school with some pre-set topics as well as a general enquiry for any topics not listed, the form has set field entry requirements to prevent submission of an incomplete form. The layout style, is again, consistent with the rest of the website with the mobile and tablet view showing the information stacked, moving onto larger screens, the location and schools contact information sit next to each other for a smoother finish.
 
 ![Contact section](docs/existing-feature-contact.png "Contact Section")
 
