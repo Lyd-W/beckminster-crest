@@ -382,8 +382,10 @@ The footer follows a consistent style across all devices, using the same backgro
 
 ## Languages
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML "HTML")
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS "CSS")
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML "HTML")
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript "JavaScript")
+
 
 ## Libraries and Frameworks
 
